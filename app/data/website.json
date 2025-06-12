@@ -1,0 +1,72 @@
+{
+  "about": "Innovature, a global software company since 2005, empowers businesses across industries with digital solutions—spanning Cloud, Data, AI, and Consulting—to scale faster, operate safer, and grow smarter across borders. Rooted in deep domain expertise and a unique “insource quality, outsource execution” model, we help enterprises unlock long-term value through purposeful digital transformation.",
+  "services": [
+    "Cloud",
+    "Data",
+    "Artificial Intelligence",
+    "Consulting Capability",
+    "Digital Transformation"
+  ],
+  "industries": [
+    "Retail",
+    "Advertising & Media",
+    "Education",
+    "Telecommunications",
+    "Healthcare",
+    "Utilities",
+    "Finance",
+    "E-commerce"
+  ],
+  "contact": {
+    "email": "sales@innovature.ai",
+    "phone": "+91-484-4038120",
+    "address": "Trans Asia Cyber Park 18th Floor Infopark Phase 2, Kakkanad Kerala 682303"
+  },
+  "socials": {
+    "linkedin": "https://www.linkedin.com/company/innovature"
+  },
+  "vision": "Create a better future through innovative digital transformation.",
+  "mission": "Consistently deliver innovative and high-quality digital solutions that elicit customer delight.",
+  "offices": [
+    "India",
+    "Singapore",
+    "Canada",
+    "Japan",
+    "USA"
+  ],
+  "core_values": [
+    "Customer Commitment",
+    "Teamwork",
+    "Care For Community & Society"
+  ],
+  "employee_wellbeing": {
+    "description": "At Innovature, we believe that wellbeing is a top priority. We strive to create a positive work-life balance for our employees by providing support and resources to help them thrive both on and off the job.",
+    "benefits": [
+      "Healthy Meals",
+      "Tea & Cafeteria",
+      "Food Vouchers",
+      "Transportation",
+      "Sport Memberships",
+      "Training & Certifications",
+      "Team Outings",
+      "Medical Checkups"
+    ]
+  },
+  "leadership_team": [
+    {"name": "Gijo Sivan", "position": "CEO, Global"},
+    {"name": "Ravindranath A V", "position": "CEO, Americas"},
+    {"name": "Tiby Kuruvila", "position": "Chief Advisor"},
+    {"name": "Yoshitaka Nakayama", "position": "VP, Strategic Business Development"},
+    {"name": "Akira Furusawa", "position": "Business Development"},
+    {"name": "Jesper Bågeman", "position": "Partner, Technology"},
+    {"name": "Wahbe Rezek", "position": "Advisor, AI & Deep Tech"},
+    {"name": "Unnikrishnan S", "position": "Vice President"},
+    {"name": "Meghna George", "position": "Head, People Operations"}
+  ],
+  "detailed_info": {
+    "digital_transformation": "Reimagine. Reinvent. Transform.\nWhat we do is simple — from strategy to execution, we’re with you every step of the way. Whether you’re modernizing systems, scaling by insourcing AI, or building future-proof foundations, Innovature enables digital transformation that drives real outcomes.\n\nWhat sets us apart:\n- We follow a product-first mindset and approach.\n- We align business goals with emerging technology.\n\nOur 4-Stage DX Framework:\n01 Vision and Strategy: We start by reimagining your business model, including capability mapping and identifying the most promising opportunities that drive long-term value and returns.\n02 Rapid Prototyping: Leverage low-code/no-code development, run quick validation sprints, and test ideas through agile prototyping to support scalable innovation.\n03 Core Modernization: Modernize your core to unlock future-ready capabilities. We help transition from legacy systems to agile, scalable, and intelligent platforms that support business growth.\n04 AI-Led Optimization: Boost operational efficiency by integrating AI/ML into workflows, automating repetitive tasks, and enabling data-driven, smart decision-making.\n\nCore Areas:\n- Cloud and DevOps: Secure, scalable, cloud-native architectures, legacy migration, hybrid integration, DevOps automation, infrastructure security.\n- AI and Automation: Intelligent applications, GenAI tools, intelligent workflows, transformative automation.\n- Data Engineering & Analytics: Assess, organize, and extract data value for smarter decisions.\n- Quality Assurance: Shift-left QA, functionality, accessibility, performance, security.\n- Product and Experience Design: Mobile-first, inclusive UI to improve engagement and retention.\n- DEV and Tech Pods: Dedicated tech pods for custom web, mobile, and full-stack solutions.",
+    "cloud_solutions": "Innovature offers a range of cloud services, including cloud migration, security, cloud native services, and compliance, to name a few. Our cloud solutions are designed to minimize capital expenditure by offering flexible, pay-as-you-go models and reducing the need for on-premises hardware and maintenance costs.",
+    "core_ai_services": "Core AI Services We Offer:\n- Conversational AI that feels human\n- Predictive Analytics & Behavioural Intelligence\n- Computer Vision & Object Detection\n- Generative Content & NLP Models\n- Immersive AI Simulations (AR/VR)",
+    "consulting": "How our consultants accelerate growth:\nWe validate your vision and build the ecosystem to launch it. From startup ideation to offshore team scaling, Innovature empowers you with the strategy, structure, and support to get your business off the ground — and growing with confidence.\n\nHow do we help:\nWe provide full-spectrum consulting—from idea validation and MVP development to scaling offshore teams—tailored to every stage of your startup’s growth.\n\nProven expertise in setting up and scaling GCCs with flexible BOT and managed service models for control, speed, and efficiency."
+  }
+}
