@@ -1,12 +1,15 @@
+// App.js
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import ReactMarkdown from 'react-markdown';
+import aiImage from './assets/ai.png';
 
 function App() {
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState([]);
   const [sessionId, setSessionId] = useState('');
   const [isTyping, setIsTyping] = useState(false);
+  const [isChatOpen, setIsChatOpen] = useState(false);
 
   useEffect(() => {
     const newSessionId = Date.now().toString();
@@ -47,37 +50,60 @@ function App() {
   };
 
   return (
-    <div className="chat-container">
-      <div className="chat-header">
-        <img src="/logo.png" alt="Logo" className="logo" />
-        <span>Innovature Chatbot</span>
-      </div>
+    <div className="page-container">
+      <header className="home-header">
+  <div className="header-content">
+    <img src="/logo.png" alt="Logo" className="header-logo" />
+    <h2 className="header-title">Innovature</h2>
+  </div>
+</header>
 
-      <div className="chat-box">
-        {messages.map((msg, index) => (
-          <div key={index} className={`chat-bubble ${msg.sender}`}>
-            <ReactMarkdown>{msg.content}</ReactMarkdown>
-          </div>
-        ))}
-        {isTyping && (
-          <div className="chat-bubble bot typing">
-            <span className="typing-indicator">
-              <span></span><span></span><span></span>
-            </span>
-          </div>
-        )}
-      </div>
+      <section className="home-section">
+        <img src={aiImage} alt="AI Background" className="hero-image" />
+        <div className="overlay-text">
+          <h1>Empowering Innovations with Artificial Intelligence</h1>
+          <p>Unlocking Tomorrow</p>
+        </div>
+      </section>
 
-      <div className="chat-input-box">
-        <input
-          type="text"
-          value={input}
-          placeholder="Type your message..."
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={handleKeyPress}
-        />
-        <button onClick={sendMessage}>Send</button>
-      </div>
+      {/* Floating Chat Button */}
+      <button className="chat-toggle" onClick={() => setIsChatOpen(!isChatOpen)}>💬</button>
+
+      {/* Chat Container */}
+      {isChatOpen && (
+        <div className="chat-container">
+          <div className="chat-header">
+            <img src="/logo.png" alt="Logo" className="logo" />
+            <span>Nova Chatbot</span>
+          </div>
+
+          <div className="chat-box">
+            {messages.map((msg, idx) => (
+              <div key={idx} className={`chat-bubble ${msg.sender}`}>
+                <ReactMarkdown>{msg.content}</ReactMarkdown>
+              </div>
+            ))}
+            {isTyping && (
+              <div className="chat-bubble bot typing">
+                <span className="typing-indicator">
+                  <span></span><span></span><span></span>
+                </span>
+              </div>
+            )}
+          </div>
+
+          <div className="chat-input-box">
+            <input
+              type="text"
+              value={input}
+              placeholder="Type your message..."
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={handleKeyPress}
+            />
+            <button onClick={sendMessage}>Send</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
