@@ -1,8 +1,8 @@
-// App.js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import ReactMarkdown from 'react-markdown';
 import aiImage from './assets/ai.png';
+import { RotateCcw } from 'lucide-react';
 
 function App() {
   const [input, setInput] = useState('');
@@ -10,11 +10,43 @@ function App() {
   const [sessionId, setSessionId] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const [isChatOpen, setIsChatOpen] = useState(false);
+  const [showScrollButton, setShowScrollButton] = useState(false);
+
+  const messagesEndRef = useRef(null);
+  const chatBoxRef = useRef(null);
+
+  const generateSessionId = () => Date.now().toString();
 
   useEffect(() => {
-    const newSessionId = Date.now().toString();
-    setSessionId(newSessionId);
+    setSessionId(generateSessionId());
   }, []);
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages]);
+
+  useEffect(() => {
+    const chatBox = chatBoxRef.current;
+    if (!chatBox) return;
+
+    const handleScroll = () => {
+      const isAtBottom =
+        chatBox.scrollHeight - chatBox.scrollTop - chatBox.clientHeight < 50;
+      setShowScrollButton(!isAtBottom);
+    };
+
+    chatBox.addEventListener('scroll', handleScroll);
+    return () => chatBox.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const resetChat = () => {
+    setMessages([]);
+    setSessionId(generateSessionId());
+  };
 
   const sendMessage = async () => {
     if (!input.trim()) return;
@@ -52,11 +84,11 @@ function App() {
   return (
     <div className="page-container">
       <header className="home-header">
-  <div className="header-content">
-    <img src="/logo.png" alt="Logo" className="header-logo" />
-    <h2 className="header-title">Innovature</h2>
-  </div>
-</header>
+        <div className="header-content">
+          <img src="/logo.png" alt="Logo" className="header-logo" />
+          <h2 className="header-title">Innovature</h2>
+        </div>
+      </header>
 
       <section className="home-section">
         <img src={aiImage} alt="AI Background" className="hero-image" />
@@ -66,18 +98,19 @@ function App() {
         </div>
       </section>
 
-      {/* Floating Chat Button */}
       <button className="chat-toggle" onClick={() => setIsChatOpen(!isChatOpen)}>💬</button>
 
-      {/* Chat Container */}
       {isChatOpen && (
         <div className="chat-container">
           <div className="chat-header">
             <img src="/logo.png" alt="Logo" className="logo" />
             <span>Nova Chatbot</span>
+            <button className="reset-icon" onClick={resetChat} title="Reset Chat">
+              <RotateCcw size={20} strokeWidth={2} />
+            </button>
           </div>
 
-          <div className="chat-box">
+          <div className="chat-box" ref={chatBoxRef}>
             {messages.map((msg, idx) => (
               <div key={idx} className={`chat-bubble ${msg.sender}`}>
                 <ReactMarkdown>{msg.content}</ReactMarkdown>
@@ -90,7 +123,14 @@ function App() {
                 </span>
               </div>
             )}
+            <div ref={messagesEndRef} />
           </div>
+
+          {showScrollButton && (
+            <button className="scroll-button" onClick={scrollToBottom} title="Scroll to bottom">
+              ↓
+            </button>
+          )}
 
           <div className="chat-input-box">
             <input

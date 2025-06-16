@@ -1,0 +1,855 @@
+2025-06-15 21:31:14,149 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 21:31:14,186 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-15 21:31:14,187 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 21:31:14,189 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 21:31:15,249 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 21:31:15,328 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 21:31:15,332 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 21:32:02,319 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:32:02] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 21:32:02,323 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750048318359'}
+2025-06-15 21:32:02,324 - chatbot - INFO - Processing message: 'hi' | Session: 1750048318359
+2025-06-15 21:32:02,324 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 21:32:05,125 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-15 21:32:05,126 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-15 21:32:05,128 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:32:05] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 21:32:24,238 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:32:24] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 21:32:24,241 - chatbot - INFO - Received request data: {'message': 'what is your name', 'session_id': '1750048318359'}
+2025-06-15 21:32:24,243 - chatbot - INFO - Processing message: 'what is your name' | Session: 1750048318359
+2025-06-15 21:32:24,243 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 21:32:26,039 - chatbot - INFO - AI fallback reply: My name is Nova. How can I help you today?...
+2025-06-15 21:32:26,039 - chatbot - INFO - Sending response: {'reply': 'My name is Nova. How can I help you today?', 'session_id': None}
+2025-06-15 21:32:26,040 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:32:26] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 21:34:25,389 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:34:25] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 21:34:25,393 - chatbot - INFO - Received request data: {'message': 'who is your chief advisor', 'session_id': '1750048318359'}
+2025-06-15 21:34:25,395 - chatbot - INFO - Processing message: 'who is your chief advisor' | Session: 1750048318359
+2025-06-15 21:34:25,396 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 21:34:29,796 - chatbot - INFO - AI fallback reply: The Chief Advisor at Innovature is Tiby Kuruvila. If you have any more questions, feel free to ask!...
+2025-06-15 21:34:29,797 - chatbot - INFO - Sending response: {'reply': 'The Chief Advisor at Innovature is Tiby Kuruvila. If you have any more questions, feel free to ask!', 'session_id': None}
+2025-06-15 21:34:29,799 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:34:29] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 21:34:46,189 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:34:46] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 21:34:46,198 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750048318359'}
+2025-06-15 21:34:46,198 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750048318359
+2025-06-15 21:34:46,199 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 21:34:48,962 - chatbot - INFO - AI fallback reply: As the Chief Advisor, Tiby Kuruvila provides strategic guidance and expertise to Innovature, helping...
+2025-06-15 21:34:48,964 - chatbot - INFO - Sending response: {'reply': "As the Chief Advisor, Tiby Kuruvila provides strategic guidance and expertise to Innovature, helping to shape the company's direction and support its mission of delivering innovative digital solutions. If you have more questions about Innovature or its leadership team, let me know!", 'session_id': None}
+2025-06-15 21:34:48,966 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:34:48] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 21:51:13,123 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:51:13] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 21:51:13,127 - chatbot - INFO - Received request data: {'message': 'who manages hr?', 'session_id': '1750048318359'}
+2025-06-15 21:51:13,127 - chatbot - INFO - Processing message: 'who manages hr?' | Session: 1750048318359
+2025-06-15 21:51:13,128 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 21:51:15,677 - chatbot - INFO - AI fallback reply: The Head of People Operations, Meghna George, manages HR at Innovature. If you have any further ques...
+2025-06-15 21:51:15,679 - chatbot - INFO - Sending response: {'reply': 'The Head of People Operations, Meghna George, manages HR at Innovature. If you have any further questions, feel free to ask!', 'session_id': None}
+2025-06-15 21:51:15,680 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:51:15] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 21:51:26,027 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:51:26] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 21:51:26,030 - chatbot - INFO - Received request data: {'message': 'what does she do?', 'session_id': '1750048318359'}
+2025-06-15 21:51:26,030 - chatbot - INFO - Processing message: 'what does she do?' | Session: 1750048318359
+2025-06-15 21:51:26,030 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 21:51:28,317 - chatbot - INFO - AI fallback reply: As the Head of People Operations, Meghna George is responsible for overseeing HR functions, includin...
+2025-06-15 21:51:28,318 - chatbot - INFO - Sending response: {'reply': 'As the Head of People Operations, Meghna George is responsible for overseeing HR functions, including talent management, employee engagement, recruitment, training, and development initiatives. Her role ensures that Innovature maintains a positive work culture and supports employee wellbeing. If you need more information, just let me know!', 'session_id': None}
+2025-06-15 21:51:28,320 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:51:28] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 21:57:30,395 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:57:30] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 21:57:30,398 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750049846113'}
+2025-06-15 21:57:30,398 - chatbot - INFO - Processing message: 'hi' | Session: 1750049846113
+2025-06-15 21:57:30,399 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 21:57:32,538 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-15 21:57:32,540 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-15 21:57:32,541 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:57:32] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 21:57:47,826 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 21:57:47,864 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-15 21:57:47,865 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 21:57:47,867 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 21:57:48,827 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 21:57:48,854 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 21:57:48,860 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 21:58:25,500 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:58:25] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 21:58:25,503 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750049891936'}
+2025-06-15 21:58:25,504 - chatbot - INFO - Processing message: 'hi' | Session: 1750049891936
+2025-06-15 21:58:25,504 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 21:58:27,913 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-15 21:58:27,915 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-15 21:58:27,917 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 21:58:27] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 22:04:02,010 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:04:02] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 22:04:02,016 - chatbot - INFO - Received request data: {'message': 'HI', 'session_id': '1750050184312'}
+2025-06-15 22:04:02,017 - chatbot - INFO - Processing message: 'HI' | Session: 1750050184312
+2025-06-15 22:04:02,018 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 22:04:04,059 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-15 22:04:04,061 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-15 22:04:04,062 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:04:04] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 22:04:33,802 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:04:33] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 22:04:33,806 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750050271151'}
+2025-06-15 22:04:33,806 - chatbot - INFO - Processing message: 'hi' | Session: 1750050271151
+2025-06-15 22:04:33,807 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 22:04:35,745 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-15 22:04:35,746 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-15 22:04:35,747 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:04:35] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 22:09:06,283 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 22:09:06,326 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-15 22:09:06,327 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 22:09:06,328 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 22:09:07,324 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 22:09:07,350 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 22:09:07,353 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 22:14:14,434 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:14:14] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 22:14:14,438 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750050763639'}
+2025-06-15 22:14:14,438 - chatbot - INFO - Processing message: 'hi' | Session: 1750050763639
+2025-06-15 22:14:14,438 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 22:14:16,949 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-15 22:14:16,951 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-15 22:14:16,952 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:14:16] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 22:14:31,961 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:14:31] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 22:14:31,966 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750050869518'}
+2025-06-15 22:14:31,966 - chatbot - INFO - Processing message: 'hi' | Session: 1750050869518
+2025-06-15 22:14:31,967 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 22:14:34,120 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-15 22:14:34,122 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-15 22:14:34,123 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:14:34] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 22:21:04,645 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\config.py', reloading
+2025-06-15 22:21:04,783 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 22:21:06,024 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 22:21:06,052 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 22:21:06,055 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 22:22:04,194 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-15 22:22:04,249 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 22:22:05,520 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 22:22:05,543 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 22:22:05,546 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 22:22:27,459 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\routes\\chatbot_routes.py', reloading
+2025-06-15 22:22:27,538 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 22:22:28,618 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 22:22:28,644 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 22:22:28,647 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 22:22:34,895 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\routes\\chatbot_routes.py', reloading
+2025-06-15 22:22:34,947 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 22:22:35,962 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 22:22:35,987 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 22:22:35,991 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 22:29:59,528 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:29:59] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 22:29:59,534 - chatbot - INFO - Received request data: {'message': 'who is your global ceo', 'session_id': '1750050869518'}
+2025-06-15 22:29:59,535 - chatbot - INFO - Processing message: 'who is your global ceo' | Session: 1750050869518
+2025-06-15 22:29:59,536 - chatbot - INFO - Matched rule: CEO
+2025-06-15 22:29:59,536 - chatbot - INFO - Sending response: {'reply': 'The CEO of Innovature Global is Gijo Sivan.', 'session_id': None}
+2025-06-15 22:29:59,537 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:29:59] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 22:30:05,367 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:30:05] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 22:30:05,371 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750050869518'}
+2025-06-15 22:30:05,372 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750050869518
+2025-06-15 22:30:05,374 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 22:30:07,705 - chatbot - INFO - AI fallback reply: Could you please clarify whom you're referring to? This will help me provide a more accurate respons...
+2025-06-15 22:30:07,706 - chatbot - INFO - Sending response: {'reply': "Could you please clarify whom you're referring to? This will help me provide a more accurate response.", 'session_id': None}
+2025-06-15 22:30:07,708 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:30:07] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 22:30:29,703 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:30:29] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 22:30:29,706 - chatbot - INFO - Received request data: {'message': 'who is tiby kuruvila', 'session_id': '1750050869518'}
+2025-06-15 22:30:29,707 - chatbot - INFO - Processing message: 'who is tiby kuruvila' | Session: 1750050869518
+2025-06-15 22:30:29,707 - chatbot - INFO - Matched rule: name match for Tiby Kuruvila
+2025-06-15 22:30:29,707 - chatbot - INFO - Sending response: {'reply': 'Tiby Kuruvila is our Chief Advisor.', 'session_id': None}
+2025-06-15 22:30:29,709 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:30:29] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 22:30:35,599 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:30:35] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 22:30:35,602 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750050869518'}
+2025-06-15 22:30:35,602 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750050869518
+2025-06-15 22:30:35,603 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 22:30:37,966 - chatbot - INFO - AI fallback reply: Tiby Kuruvila is the Chief Advisor at Innovature. In this role, he provides strategic guidance and i...
+2025-06-15 22:30:37,968 - chatbot - INFO - Sending response: {'reply': "Tiby Kuruvila is the Chief Advisor at Innovature. In this role, he provides strategic guidance and insights to drive the company's initiatives and overall direction.", 'session_id': None}
+2025-06-15 22:30:37,969 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 22:30:37] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:25:26,005 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-15 23:25:26,064 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:25:27,269 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 23:25:27,298 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:25:27,301 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 23:25:28,375 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-15 23:25:28,426 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:25:29,436 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 23:25:29,463 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:25:29,466 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 23:25:43,038 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-15 23:25:43,106 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:25:44,111 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 23:25:44,133 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:25:44,136 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 23:25:54,676 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 23:25:54,717 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-15 23:25:54,717 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 23:25:54,719 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:25:55,690 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 23:25:55,720 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:25:55,723 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 23:26:52,571 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:26:52] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:26:52,576 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750055208060'}
+2025-06-15 23:26:52,576 - chatbot - INFO - Processing message: 'hi' | Session: 1750055208060
+2025-06-15 23:26:52,577 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:26:54,721 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-15 23:26:54,722 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-15 23:26:54,724 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:26:54] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:26:59,546 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:26:59] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:26:59,552 - chatbot - INFO - Received request data: {'message': 'who is your ceo', 'session_id': '1750055208060'}
+2025-06-15 23:26:59,552 - chatbot - INFO - Processing message: 'who is your ceo' | Session: 1750055208060
+2025-06-15 23:26:59,553 - chatbot - INFO - Matched rule: CEO
+2025-06-15 23:26:59,554 - chatbot - INFO - Sending response: {'reply': 'Our CEOs are Gijo Sivan, Ravindranath A V.', 'session_id': None}
+2025-06-15 23:26:59,556 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:26:59] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:27:05,258 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:27:05] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:27:05,261 - chatbot - INFO - Received request data: {'message': 'global ceo', 'session_id': '1750055208060'}
+2025-06-15 23:27:05,262 - chatbot - INFO - Processing message: 'global ceo' | Session: 1750055208060
+2025-06-15 23:27:05,264 - chatbot - INFO - Matched rule: CEO
+2025-06-15 23:27:05,267 - chatbot - INFO - Sending response: {'reply': 'The CEO of Innovature Global is Gijo Sivan.', 'session_id': None}
+2025-06-15 23:27:05,268 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:27:05] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:27:11,425 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:27:11] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:27:11,429 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750055208060'}
+2025-06-15 23:27:11,429 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750055208060
+2025-06-15 23:27:11,430 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:27:13,639 - chatbot - INFO - AI fallback reply: Could you please clarify who you're referring to? If you're asking about a specific person within In...
+2025-06-15 23:27:13,641 - chatbot - INFO - Sending response: {'reply': "Could you please clarify who you're referring to? If you're asking about a specific person within Innovature, I can provide information about their role or responsibilities.", 'session_id': None}
+2025-06-15 23:27:13,642 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:27:13] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:29:32,510 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-15 23:29:32,570 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:29:33,662 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 23:29:33,691 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:29:33,694 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 23:29:43,271 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 23:29:43,317 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-15 23:29:43,318 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 23:29:43,320 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:29:44,367 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-15 23:29:44,396 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:29:44,399 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-15 23:30:20,315 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:30:20] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:30:20,320 - chatbot - INFO - Received request data: {'message': 'who is your global ceo', 'session_id': '1750055407280'}
+2025-06-15 23:30:20,320 - chatbot - INFO - Processing message: 'who is your global ceo' | Session: 1750055407280
+2025-06-15 23:30:20,320 - chatbot - INFO - Matched rule: CEO
+2025-06-15 23:30:20,320 - chatbot - INFO - Sending response: {'reply': 'The CEO of Innovature Global is Gijo Sivan.', 'session_id': None}
+2025-06-15 23:30:20,323 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:30:20] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:30:29,489 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:30:29] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:30:29,493 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750055407280'}
+2025-06-15 23:30:29,494 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750055407280
+2025-06-15 23:30:29,496 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:30:32,358 - chatbot - INFO - AI fallback reply: Gijo Sivan is the CEO of Innovature on a global level. He is responsible for overseeing the overall ...
+2025-06-15 23:30:32,359 - chatbot - INFO - Sending response: {'reply': 'Gijo Sivan is the CEO of Innovature on a global level. He is responsible for overseeing the overall strategic direction and operations of the company.', 'session_id': None}
+2025-06-15 23:30:32,360 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:30:32] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:32:33,250 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:32:33] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:32:33,258 - chatbot - INFO - Received request data: {'message': 'who is tiby kuruvila', 'session_id': '1750055407280'}
+2025-06-15 23:32:33,259 - chatbot - INFO - Processing message: 'who is tiby kuruvila' | Session: 1750055407280
+2025-06-15 23:32:33,259 - chatbot - INFO - Matched rule: name match for Tiby Kuruvila
+2025-06-15 23:32:33,260 - chatbot - INFO - Sending response: {'reply': 'Tiby Kuruvila is our Chief Advisor.', 'session_id': None}
+2025-06-15 23:32:33,261 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:32:33] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:32:38,681 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:32:38] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:32:38,684 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750055407280'}
+2025-06-15 23:32:38,685 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750055407280
+2025-06-15 23:32:38,686 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:32:41,975 - chatbot - INFO - AI fallback reply: Tiby Kuruvila is the Chief Advisor at Innovature. His role typically involves providing strategic gu...
+2025-06-15 23:32:41,976 - chatbot - INFO - Sending response: {'reply': "Tiby Kuruvila is the Chief Advisor at Innovature. His role typically involves providing strategic guidance and expertise to support the company's mission and growth objectives.", 'session_id': None}
+2025-06-15 23:32:41,978 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:32:41] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:32:53,785 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:32:53] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:32:53,788 - chatbot - INFO - Received request data: {'message': 'who is india ceo', 'session_id': '1750055407280'}
+2025-06-15 23:32:53,789 - chatbot - INFO - Processing message: 'who is india ceo' | Session: 1750055407280
+2025-06-15 23:32:53,789 - chatbot - INFO - Matched rule: CEO
+2025-06-15 23:32:53,790 - chatbot - INFO - Sending response: {'reply': 'The CEO of Innovature India is Ravindranath A V.', 'session_id': None}
+2025-06-15 23:32:53,791 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:32:53] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:33:02,233 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:33:02] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:33:02,236 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750055407280'}
+2025-06-15 23:33:02,236 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750055407280
+2025-06-15 23:33:02,237 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:33:04,615 - chatbot - INFO - AI fallback reply: Ravindranath A V is the CEO for Innovature in India and the Americas. He is responsible for leading ...
+2025-06-15 23:33:04,616 - chatbot - INFO - Sending response: {'reply': 'Ravindranath A V is the CEO for Innovature in India and the Americas. He is responsible for leading operations and strategic initiatives in these regions, driving business growth, and ensuring the delivery of high-quality services to clients.', 'session_id': None}
+2025-06-15 23:33:04,616 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:33:04] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:35:29,321 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:35:29] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:35:29,326 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750055719095'}
+2025-06-15 23:35:29,327 - chatbot - INFO - Processing message: 'hi' | Session: 1750055719095
+2025-06-15 23:35:29,328 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:35:32,164 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-15 23:35:32,165 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-15 23:35:32,166 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:35:32] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:35:38,329 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:35:38] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:35:38,332 - chatbot - INFO - Received request data: {'message': 'what services do you offer', 'session_id': '1750055719095'}
+2025-06-15 23:35:38,333 - chatbot - INFO - Processing message: 'what services do you offer' | Session: 1750055719095
+2025-06-15 23:35:38,336 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:35:40,835 - chatbot - INFO - AI fallback reply: At Innovature, we offer the following services:
+
+1. Cloud
+2. Data
+3. Artificial Intelligence
+4. Cons...
+2025-06-15 23:35:40,837 - chatbot - INFO - Sending response: {'reply': 'At Innovature, we offer the following services:\n\n1. Cloud\n2. Data\n3. Artificial Intelligence\n4. Consulting Capability\n5. Digital Transformation\n\nIf you need more information about any specific service, feel free to ask!', 'session_id': None}
+2025-06-15 23:35:40,839 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:35:40] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:35:59,657 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:35:59] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:35:59,660 - chatbot - INFO - Received request data: {'message': 'why should i choose innovature', 'session_id': '1750055719095'}
+2025-06-15 23:35:59,660 - chatbot - INFO - Processing message: 'why should i choose innovature' | Session: 1750055719095
+2025-06-15 23:35:59,661 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:36:07,133 - chatbot - INFO - AI fallback reply: You should choose Innovature because:
+
+1. **Expertise**: We have deep domain expertise across variou...
+2025-06-15 23:36:07,135 - chatbot - INFO - Sending response: {'reply': 'You should choose Innovature because:\n\n1. **Expertise**: We have deep domain expertise across various industries.\n2. **Proven Model**: Our unique “insource quality, outsource execution” model helps ensure high-quality outcomes.\n3. **Comprehensive Solutions**: We provide a wide range of digital solutions including Cloud, Data, AI, and Consulting.\n4. **Customer Commitment**: Our mission focuses on delivering innovative and high-quality solutions that delight our customers.\n5. **Global Presence**: With offices in multiple countries, we can support businesses across borders.\n\nChoosing Innovature means partnering with a dedicated team to drive purposeful digital transformation and unlock long-term value.', 'session_id': None}
+2025-06-15 23:36:07,189 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:36:07] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:50:22,256 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:50:22] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:50:22,259 - chatbot - INFO - Received request data: {'message': 'who is your ai and deep tech advisor', 'session_id': '1750055719095'}
+2025-06-15 23:50:22,260 - chatbot - INFO - Processing message: 'who is your ai and deep tech advisor' | Session: 1750055719095
+2025-06-15 23:50:22,260 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:50:25,078 - chatbot - INFO - AI fallback reply: Our Advisor for AI & Deep Tech is Wahbe Rezek. If you have any more questions about our team or serv...
+2025-06-15 23:50:25,080 - chatbot - INFO - Sending response: {'reply': 'Our Advisor for AI & Deep Tech is Wahbe Rezek. If you have any more questions about our team or services, feel free to ask!', 'session_id': None}
+2025-06-15 23:50:25,082 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:50:25] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:50:31,951 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:50:31] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:50:31,955 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750055719095'}
+2025-06-15 23:50:31,955 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750055719095
+2025-06-15 23:50:31,956 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:50:34,914 - chatbot - INFO - AI fallback reply: As the Advisor for AI & Deep Tech, Wahbe Rezek provides strategic guidance and insights regarding ar...
+2025-06-15 23:50:34,915 - chatbot - INFO - Sending response: {'reply': 'As the Advisor for AI & Deep Tech, Wahbe Rezek provides strategic guidance and insights regarding artificial intelligence and deep technology initiatives. He helps Innovature leverage innovative technologies to enhance our service offerings, ensuring that we stay at the forefront of digital transformation and can deliver cutting-edge solutions to our clients.', 'session_id': None}
+2025-06-15 23:50:34,917 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:50:34] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:55:12,783 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:55:12] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:55:12,786 - chatbot - INFO - Received request data: {'message': 'who is Yoshitaka Nakayama', 'session_id': '1750055719095'}
+2025-06-15 23:55:12,786 - chatbot - INFO - Processing message: 'who is Yoshitaka Nakayama' | Session: 1750055719095
+2025-06-15 23:55:12,787 - chatbot - INFO - Matched rule: name match for Yoshitaka Nakayama
+2025-06-15 23:55:12,787 - chatbot - INFO - Sending response: {'reply': 'Yoshitaka Nakayama is our VP, Strategic Business Development.', 'session_id': None}
+2025-06-15 23:55:12,787 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:55:12] "POST /api/chat HTTP/1.1" 200 -
+2025-06-15 23:55:39,607 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:55:39] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-15 23:55:39,612 - chatbot - INFO - Received request data: {'message': 'what is his job?', 'session_id': '1750055719095'}
+2025-06-15 23:55:39,613 - chatbot - INFO - Processing message: 'what is his job?' | Session: 1750055719095
+2025-06-15 23:55:39,613 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-15 23:55:42,753 - chatbot - INFO - AI fallback reply: Wahbe Rezek's job as the Advisor for AI & Deep Tech involves providing strategic direction and exper...
+2025-06-15 23:55:42,755 - chatbot - INFO - Sending response: {'reply': "Wahbe Rezek's job as the Advisor for AI & Deep Tech involves providing strategic direction and expertise in artificial intelligence and deep technology. He helps Innovature identify opportunities for innovation, develops strategies for integrating advanced technologies into our solutions, and ensures that we are aligned with industry trends and best practices. His role is crucial in driving our AI initiatives and enhancing our technological capabilities.", 'session_id': None}
+2025-06-15 23:55:42,757 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 23:55:42] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:02:12,478 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:02:12] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:02:12,484 - chatbot - INFO - Received request data: {'message': 'what are the servuces offered', 'session_id': '1750055719095'}
+2025-06-16 00:02:12,485 - chatbot - INFO - Processing message: 'what are the servuces offered' | Session: 1750055719095
+2025-06-16 00:02:12,485 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:02:16,037 - chatbot - INFO - AI fallback reply: Innovature offers the following services:
+
+1. **Cloud**: Cloud solutions to enhance scalability and ...
+2025-06-16 00:02:16,039 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services:\n\n1. **Cloud**: Cloud solutions to enhance scalability and flexibility for businesses.\n2. **Data**: Data analytics and management services to drive informed decision-making.\n3. **Artificial Intelligence**: AI solutions to improve efficiency and drive innovation.\n4. **Consulting Capability**: Expert consulting to guide digital transformation efforts.\n5. **Digital Transformation**: Comprehensive strategies to transform business operations through digital technologies.\n\nIf you need more details about any specific service, let me know!', 'session_id': None}
+2025-06-16 00:02:16,041 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:02:16] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:02:22,174 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:02:22] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:02:22,177 - chatbot - INFO - Received request data: {'message': 'explain more', 'session_id': '1750055719095'}
+2025-06-16 00:02:22,177 - chatbot - INFO - Processing message: 'explain more' | Session: 1750055719095
+2025-06-16 00:02:22,178 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:02:27,524 - chatbot - INFO - AI fallback reply: Sure! Here’s a more detailed explanation of our services:
+
+1. **Cloud**: We offer cloud computing so...
+2025-06-16 00:02:27,525 - chatbot - INFO - Sending response: {'reply': 'Sure! Here’s a more detailed explanation of our services:\n\n1. **Cloud**: We offer cloud computing solutions that enable businesses to store, manage, and process data more effectively. This includes cloud infrastructure setup, migration, and management, allowing organizations to scale their operations without the burden of maintaining physical servers.\n\n2. **Data**: Our data services focus on data analytics, visualization, and management. We help businesses leverage their data to gain insights, improve performance, and make informed decisions. This includes data warehousing, business intelligence solutions, and predictive analytics.\n\n3. **Artificial Intelligence**: We provide AI solutions that incorporate machine learning, natural language processing, and automation. These solutions aim to enhance operational efficiency, customer engagement, and overall business performance. We assist in developing AI models tailored to specific business needs.\n\n4. **Consulting Capability**: Our consulting services offer expert advice tailored to your industry and business challenges. We help organizations identify opportunities for improvement, devise strategies for digital transformation, and implement best practices to achieve their goals.\n\n5. **Digital Transformation**: We guide organizations through the process of transforming their operations, processes, and business models with digital technologies. This includes adopting new technologies, optimizing existing workflows, and integrating systems for better collaboration and efficiency.\n\nIf you want more specific information about any of these services or how they can benefit your business, feel free to ask!', 'session_id': None}
+2025-06-16 00:02:27,527 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:02:27] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:06:57,766 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:06:57] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:06:57,770 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750057588074'}
+2025-06-16 00:06:57,770 - chatbot - INFO - Processing message: 'hi' | Session: 1750057588074
+2025-06-16 00:06:57,771 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:06:59,938 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 00:06:59,939 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 00:06:59,940 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:06:59] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:07:12,982 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:07:12] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:07:12,987 - chatbot - INFO - Received request data: {'message': 'what services do you offer', 'session_id': '1750057588074'}
+2025-06-16 00:07:12,987 - chatbot - INFO - Processing message: 'what services do you offer' | Session: 1750057588074
+2025-06-16 00:07:12,988 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:07:16,039 - chatbot - INFO - AI fallback reply: Innovature offers the following services: 
+
+1. Cloud
+2. Data
+3. Artificial Intelligence
+4. Consultin...
+2025-06-16 00:07:16,040 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services: \n\n1. Cloud\n2. Data\n3. Artificial Intelligence\n4. Consulting Capability\n5. Digital Transformation\n\nIf you need more information on any specific service, feel free to ask!', 'session_id': None}
+2025-06-16 00:07:16,042 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:07:16] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:07:38,909 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:07:38] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:07:38,912 - chatbot - INFO - Received request data: {'message': 'who is your ceo', 'session_id': '1750057588074'}
+2025-06-16 00:07:38,913 - chatbot - INFO - Processing message: 'who is your ceo' | Session: 1750057588074
+2025-06-16 00:07:38,914 - chatbot - INFO - Matched rule: CEO
+2025-06-16 00:07:38,914 - chatbot - INFO - Sending response: {'reply': 'Our CEOs are Gijo Sivan, Ravindranath A V.', 'session_id': None}
+2025-06-16 00:07:38,916 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:07:38] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:16:36,885 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:16:36] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:16:36,889 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750058192760'}
+2025-06-16 00:16:36,889 - chatbot - INFO - Processing message: 'hi' | Session: 1750058192760
+2025-06-16 00:16:36,890 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:16:38,954 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 00:16:38,956 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 00:16:38,958 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:16:38] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:16:48,348 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:16:48] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:16:48,355 - chatbot - INFO - Received request data: {'message': 'what are the servuces you offer', 'session_id': '1750058192760'}
+2025-06-16 00:16:48,356 - chatbot - INFO - Processing message: 'what are the servuces you offer' | Session: 1750058192760
+2025-06-16 00:16:48,357 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:16:51,230 - chatbot - INFO - AI fallback reply: We offer the following services:
+
+1. **Cloud Solutions**
+2. **Data Services**
+3. **Artificial Intell...
+2025-06-16 00:16:51,231 - chatbot - INFO - Sending response: {'reply': 'We offer the following services:\n\n1. **Cloud Solutions**\n2. **Data Services**\n3. **Artificial Intelligence**\n4. **Consulting Capability**\n5. **Digital Transformation**\n\nIf you have any specific questions about these services, feel free to ask!', 'session_id': None}
+2025-06-16 00:16:51,234 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:16:51] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:19:01,053 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:19:01] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:19:01,056 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750058337568'}
+2025-06-16 00:19:01,056 - chatbot - INFO - Processing message: 'hi' | Session: 1750058337568
+2025-06-16 00:19:01,056 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:19:03,989 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 00:19:03,990 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 00:19:03,992 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:19:03] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:19:11,500 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:19:11] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:19:11,505 - chatbot - INFO - Received request data: {'message': 'what services do you offer', 'session_id': '1750058337568'}
+2025-06-16 00:19:11,506 - chatbot - INFO - Processing message: 'what services do you offer' | Session: 1750058337568
+2025-06-16 00:19:11,506 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:19:13,535 - chatbot - INFO - AI fallback reply: Innovature offers the following services:
+
+- Cloud
+- Data
+- Artificial Intelligence
+- Consulting Cap...
+2025-06-16 00:19:13,536 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services:\n\n- Cloud\n- Data\n- Artificial Intelligence\n- Consulting Capability\n- Digital Transformation', 'session_id': None}
+2025-06-16 00:19:13,538 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:19:13] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:21:48,525 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:21:48] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:21:48,528 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750058504582'}
+2025-06-16 00:21:48,528 - chatbot - INFO - Processing message: 'hi' | Session: 1750058504582
+2025-06-16 00:21:48,529 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:21:50,478 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 00:21:50,480 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 00:21:50,481 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:21:50] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:22:14,509 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:22:14] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:22:14,512 - chatbot - INFO - Received request data: {'message': 'which industries do you cater to', 'session_id': '1750058504582'}
+2025-06-16 00:22:14,514 - chatbot - INFO - Processing message: 'which industries do you cater to' | Session: 1750058504582
+2025-06-16 00:22:14,524 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:22:17,226 - chatbot - INFO - AI fallback reply: Innovature caters to various industries, including:
+
+- Retail
+- Advertising & Media
+- Education
+- Te...
+2025-06-16 00:22:17,229 - chatbot - INFO - Sending response: {'reply': 'Innovature caters to various industries, including:\n\n- Retail\n- Advertising & Media\n- Education\n- Telecommunications\n- Healthcare\n- Utilities\n- Finance\n- E-commerce\n\nIf you have more specific questions about our services in any of these industries, feel free to ask!', 'session_id': None}
+2025-06-16 00:22:17,231 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:22:17] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:29:01,284 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:29:01] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 00:29:01,287 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750058937987'}
+2025-06-16 00:29:01,288 - chatbot - INFO - Processing message: 'hi' | Session: 1750058937987
+2025-06-16 00:29:01,288 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:29:03,917 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 00:29:03,919 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 00:29:03,921 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:29:03] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 00:29:05,331 - chatbot - INFO - Received request data: {'message': 'services', 'session_id': '1750058937987'}
+2025-06-16 00:29:05,331 - chatbot - INFO - Processing message: 'services' | Session: 1750058937987
+2025-06-16 00:29:05,331 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 00:29:08,221 - chatbot - INFO - AI fallback reply: Innovature offers the following services:
+
+1. **Cloud** - Solutions to enhance scalability and effic...
+2025-06-16 00:29:08,222 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services:\n\n1. **Cloud** - Solutions to enhance scalability and efficiency through cloud computing.\n2. **Data** - Data management and analytics services to unlock insights and value.\n3. **Artificial Intelligence** - AI solutions designed to drive innovation and improve decision-making.\n4. **Consulting Capability** - Expert consulting to guide businesses through digital transformation.\n5. **Digital Transformation** - Comprehensive strategies to enable purposeful digital change.\n\nIf you have any specific questions about these services, feel free to ask!', 'session_id': None}
+2025-06-16 00:29:08,224 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 00:29:08] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:15:39,114 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:15:39] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:15:39,118 - chatbot - INFO - Received request data: {'message': 'what digital transformation services', 'session_id': '1750058937987'}
+2025-06-16 01:15:39,119 - chatbot - INFO - Processing message: 'what digital transformation services' | Session: 1750058937987
+2025-06-16 01:15:39,119 - chatbot - INFO - Matched rule: digital transformation
+2025-06-16 01:15:39,119 - chatbot - INFO - Sending response: {'reply': 'Reimagine. Reinvent. Transform.\nWhat we do is simple — from strategy to execution, we’re with you every step of the way. Whether you’re modernizing systems, scaling by insourcing AI, or building future-proof foundations, Innovature enables digital transformation that drives real outcomes.\n\nWhat sets us apart:\n- We follow a product-first mindset and approach.\n- We align business goals with emerging technology.\n\nOur 4-Stage DX Framework:\n01 Vision and Strategy: We start by reimagining your business model, including capability mapping and identifying the most promising opportunities that drive long-term value and returns.\n02 Rapid Prototyping: Leverage low-code/no-code development, run quick validation sprints, and test ideas through agile prototyping to support scalable innovation.\n03 Core Modernization: Modernize your core to unlock future-ready capabilities. We help transition from legacy systems to agile, scalable, and intelligent platforms that support business growth.\n04 AI-Led Optimization: Boost operational efficiency by integrating AI/ML into workflows, automating repetitive tasks, and enabling data-driven, smart decision-making.\n\nCore Areas:\n- Cloud and DevOps: Secure, scalable, cloud-native architectures, legacy migration, hybrid integration, DevOps automation, infrastructure security.\n- AI and Automation: Intelligent applications, GenAI tools, intelligent workflows, transformative automation.\n- Data Engineering & Analytics: Assess, organize, and extract data value for smarter decisions.\n- Quality Assurance: Shift-left QA, functionality, accessibility, performance, security.\n- Product and Experience Design: Mobile-first, inclusive UI to improve engagement and retention.\n- DEV and Tech Pods: Dedicated tech pods for custom web, mobile, and full-stack solutions.', 'session_id': None}
+2025-06-16 01:15:39,126 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:15:39] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:16:20,297 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:16:20] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:16:20,299 - chatbot - INFO - Received request data: {'message': 'what consulting services', 'session_id': '1750058937987'}
+2025-06-16 01:16:20,300 - chatbot - INFO - Processing message: 'what consulting services' | Session: 1750058937987
+2025-06-16 01:16:20,300 - chatbot - INFO - Matched rule: consulting
+2025-06-16 01:16:20,301 - chatbot - INFO - Sending response: {'reply': 'How our consultants accelerate growth:\nWe validate your vision and build the ecosystem to launch it. From startup ideation to offshore team scaling, Innovature empowers you with the strategy, structure, and support to get your business off the ground — and growing with confidence.\n\nHow do we help:\nWe provide full-spectrum consulting—from idea validation and MVP development to scaling offshore teams—tailored to every stage of your startup’s growth.\n\nProven expertise in setting up and scaling GCCs with flexible BOT and managed service models for control, speed, and efficiency.', 'session_id': None}
+2025-06-16 01:16:20,302 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:16:20] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:16:39,680 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:16:39] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:16:39,684 - chatbot - INFO - Received request data: {'message': 'what cloud services', 'session_id': '1750058937987'}
+2025-06-16 01:16:39,684 - chatbot - INFO - Processing message: 'what cloud services' | Session: 1750058937987
+2025-06-16 01:16:39,685 - chatbot - INFO - Matched rule: cloud services
+2025-06-16 01:16:39,685 - chatbot - INFO - Sending response: {'reply': 'Innovature offers a range of cloud services, including cloud migration, security, cloud native services, and compliance, to name a few. Our cloud solutions are designed to minimize capital expenditure by offering flexible, pay-as-you-go models and reducing the need for on-premises hardware and maintenance costs.', 'session_id': None}
+2025-06-16 01:16:39,686 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:16:39] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:17:05,393 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:17:05] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:17:05,398 - chatbot - INFO - Received request data: {'message': 'what ai services', 'session_id': '1750058937987'}
+2025-06-16 01:17:05,399 - chatbot - INFO - Processing message: 'what ai services' | Session: 1750058937987
+2025-06-16 01:17:05,400 - chatbot - INFO - Matched rule: AI services
+2025-06-16 01:17:05,400 - chatbot - INFO - Sending response: {'reply': 'Core AI Services We Offer:\n- Conversational AI that feels human\n- Predictive Analytics & Behavioural Intelligence\n- Computer Vision & Object Detection\n- Generative Content & NLP Models\n- Immersive AI Simulations (AR/VR)', 'session_id': None}
+2025-06-16 01:17:05,401 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:17:05] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:17:20,144 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:17:20] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:17:20,147 - chatbot - INFO - Received request data: {'message': 'what is a conversational ai', 'session_id': '1750058937987'}
+2025-06-16 01:17:20,148 - chatbot - INFO - Processing message: 'what is a conversational ai' | Session: 1750058937987
+2025-06-16 01:17:20,148 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:17:23,220 - chatbot - INFO - AI fallback reply: I'm only able to answer questions related to Innovature and its services. If you have inquiries abou...
+2025-06-16 01:17:23,224 - chatbot - INFO - Sending response: {'reply': "I'm only able to answer questions related to Innovature and its services. If you have inquiries about our AI solutions or how we can assist your business, feel free to ask!", 'session_id': None}
+2025-06-16 01:17:23,225 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:17:23] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:22:34,281 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:22:34] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:22:34,286 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750062144502'}
+2025-06-16 01:22:34,287 - chatbot - INFO - Processing message: 'hi' | Session: 1750062144502
+2025-06-16 01:22:34,287 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:22:36,548 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 01:22:36,549 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 01:22:36,550 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:22:36] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:22:42,976 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:22:42] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:22:42,981 - chatbot - INFO - Received request data: {'message': 'what services do you offer', 'session_id': '1750062144502'}
+2025-06-16 01:22:42,982 - chatbot - INFO - Processing message: 'what services do you offer' | Session: 1750062144502
+2025-06-16 01:22:42,982 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:22:45,550 - chatbot - INFO - AI fallback reply: Innovature offers the following services:
+
+1. Cloud
+2. Data
+3. Artificial Intelligence
+4. Consulting...
+2025-06-16 01:22:45,553 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services:\n\n1. Cloud\n2. Data\n3. Artificial Intelligence\n4. Consulting Capability\n5. Digital Transformation\n\nIf you need more information about any specific service, feel free to ask!', 'session_id': None}
+2025-06-16 01:22:45,555 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:22:45] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:22:51,912 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:22:51] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:22:51,916 - chatbot - INFO - Received request data: {'message': 'who is your ceo', 'session_id': '1750062144502'}
+2025-06-16 01:22:51,916 - chatbot - INFO - Processing message: 'who is your ceo' | Session: 1750062144502
+2025-06-16 01:22:51,917 - chatbot - INFO - Matched rule: CEO
+2025-06-16 01:22:51,919 - chatbot - INFO - Sending response: {'reply': 'Our CEOs are Gijo Sivan, Ravindranath A V.', 'session_id': None}
+2025-06-16 01:22:51,921 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:22:51] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:24:41,199 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:24:41] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:24:41,202 - chatbot - INFO - Received request data: {'message': 'who is the python team lead', 'session_id': '1750062144502'}
+2025-06-16 01:24:41,204 - chatbot - INFO - Processing message: 'who is the python team lead' | Session: 1750062144502
+2025-06-16 01:24:41,205 - chatbot - INFO - Matched rule: leadership team
+2025-06-16 01:24:41,209 - chatbot - INFO - Sending response: {'reply': 'Our leadership team includes:\nGijo Sivan, CEO, Global\nRavindranath A V, CEO, India and Americas\nTiby Kuruvila, Chief Advisor\nYoshitaka Nakayama, VP, Strategic Business Development\nAkira Furusawa, Business Development\nJesper Bågeman, Partner, Technology\nWahbe Rezek, Advisor, AI & Deep Tech\nUnnikrishnan S, Vice President\nMeghna George, Head, People Operations', 'session_id': None}
+2025-06-16 01:24:41,213 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:24:41] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:40:41,830 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:40:41] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:40:41,836 - chatbot - INFO - Received request data: {'message': 'who is your java lead', 'session_id': '1750063129436'}
+2025-06-16 01:40:41,836 - chatbot - INFO - Processing message: 'who is your java lead' | Session: 1750063129436
+2025-06-16 01:40:41,836 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:40:44,954 - chatbot - INFO - AI fallback reply: I'm sorry, but the specific roles and individuals within our teams, such as a Java lead, are not pub...
+2025-06-16 01:40:44,955 - chatbot - INFO - Sending response: {'reply': "I'm sorry, but the specific roles and individuals within our teams, such as a Java lead, are not publicly listed. If you have questions about our services or capabilities, feel free to ask!", 'session_id': None}
+2025-06-16 01:40:44,957 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:40:44] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:40:56,566 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:40:56] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:40:56,570 - chatbot - INFO - Received request data: {'message': 'who is your python lead', 'session_id': '1750063129436'}
+2025-06-16 01:40:56,571 - chatbot - INFO - Processing message: 'who is your python lead' | Session: 1750063129436
+2025-06-16 01:40:56,572 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:40:58,928 - chatbot - INFO - AI fallback reply: I'm sorry, but I don't have information on specific roles or individuals within our teams, such as a...
+2025-06-16 01:40:58,929 - chatbot - INFO - Sending response: {'reply': "I'm sorry, but I don't have information on specific roles or individuals within our teams, such as a Python lead. If you have any questions regarding our services or digital solutions, please let me know!", 'session_id': None}
+2025-06-16 01:40:58,931 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:40:58] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:41:30,750 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:41:30] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:41:30,753 - chatbot - INFO - Received request data: {'message': 'who is your python team lead', 'session_id': '1750063129436'}
+2025-06-16 01:41:30,754 - chatbot - INFO - Processing message: 'who is your python team lead' | Session: 1750063129436
+2025-06-16 01:41:30,757 - chatbot - INFO - Matched rule: leadership team
+2025-06-16 01:41:30,758 - chatbot - INFO - Sending response: {'reply': 'Our leadership team includes:\nGijo Sivan, CEO, Global\nRavindranath A V, CEO, India and Americas\nTiby Kuruvila, Chief Advisor\nYoshitaka Nakayama, VP, Strategic Business Development\nAkira Furusawa, Business Development\nJesper Bågeman, Partner, Technology\nWahbe Rezek, Advisor, AI & Deep Tech\nUnnikrishnan S, Vice President\nMeghna George, Head, People Operations', 'session_id': None}
+2025-06-16 01:41:30,759 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:41:30] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:43:04,182 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:43:04] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:43:04,186 - chatbot - INFO - Received request data: {'message': 'what is your leadership team', 'session_id': '1750063129436'}
+2025-06-16 01:43:04,186 - chatbot - INFO - Processing message: 'what is your leadership team' | Session: 1750063129436
+2025-06-16 01:43:04,187 - chatbot - INFO - Matched rule: leadership team
+2025-06-16 01:43:04,187 - chatbot - INFO - Sending response: {'reply': 'Our leadership team includes:\nGijo Sivan, CEO, Global\nRavindranath A V, CEO, India and Americas\nTiby Kuruvila, Chief Advisor\nYoshitaka Nakayama, VP, Strategic Business Development\nAkira Furusawa, Business Development\nJesper Bågeman, Partner, Technology\nWahbe Rezek, Advisor, AI & Deep Tech\nUnnikrishnan S, Vice President\nMeghna George, Head, People Operations', 'session_id': None}
+2025-06-16 01:43:04,190 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:43:04] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:53:01,764 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-16 01:53:01,863 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 01:53:12,622 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 01:53:12,767 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-16 01:53:12,767 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 01:53:12,770 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 01:53:13,751 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 01:53:13,779 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 01:53:13,781 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 01:53:41,686 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:53:41] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:53:41,690 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750064015609'}
+2025-06-16 01:53:41,690 - chatbot - INFO - Processing message: 'hi' | Session: 1750064015609
+2025-06-16 01:53:41,690 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:53:43,930 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 01:53:43,931 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 01:53:43,933 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:53:43] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:53:47,693 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:53:47] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:53:47,696 - chatbot - INFO - Received request data: {'message': 'leadership tea', 'session_id': '1750064015609'}
+2025-06-16 01:53:47,700 - chatbot - INFO - Processing message: 'leadership tea' | Session: 1750064015609
+2025-06-16 01:53:47,701 - chatbot - INFO - Matched rule: leadership team
+2025-06-16 01:53:47,702 - chatbot - INFO - Sending response: {'reply': '**Our leadership team includes:**\n\n- **Gijo Sivan** – CEO, Global\n- **Ravindranath A V** – CEO, India and Americas\n- **Tiby Kuruvila** – Chief Advisor\n- **Yoshitaka Nakayama** – VP, Strategic Business Development\n- **Akira Furusawa** – Business Development\n- **Jesper Bågeman** – Partner, Technology\n- **Wahbe Rezek** – Advisor, AI & Deep Tech\n- **Unnikrishnan S** – Vice President\n- **Meghna George** – Head, People Operations', 'session_id': None}
+2025-06-16 01:53:47,705 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:53:47] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:54:00,693 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:54:00] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:54:00,696 - chatbot - INFO - Received request data: {'message': 'who is your ceo', 'session_id': '1750064015609'}
+2025-06-16 01:54:00,696 - chatbot - INFO - Processing message: 'who is your ceo' | Session: 1750064015609
+2025-06-16 01:54:00,697 - chatbot - INFO - Matched rule: CEO
+2025-06-16 01:54:00,697 - chatbot - INFO - Sending response: {'reply': 'Our CEOs are Gijo Sivan, Ravindranath A V.', 'session_id': None}
+2025-06-16 01:54:00,698 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:54:00] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:54:06,844 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:54:06] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:54:06,849 - chatbot - INFO - Received request data: {'message': 'global ceo', 'session_id': '1750064015609'}
+2025-06-16 01:54:06,849 - chatbot - INFO - Processing message: 'global ceo' | Session: 1750064015609
+2025-06-16 01:54:06,849 - chatbot - INFO - Matched rule: CEO
+2025-06-16 01:54:06,849 - chatbot - INFO - Sending response: {'reply': 'The CEO of Innovature Global is Gijo Sivan.', 'session_id': None}
+2025-06-16 01:54:06,850 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:54:06] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:54:11,300 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750064015609'}
+2025-06-16 01:54:11,300 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750064015609
+2025-06-16 01:54:11,301 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:54:13,437 - chatbot - INFO - AI fallback reply: Could you please specify whom you are referring to? Are you asking about a specific person on the le...
+2025-06-16 01:54:13,438 - chatbot - INFO - Sending response: {'reply': 'Could you please specify whom you are referring to? Are you asking about a specific person on the leadership team at Innovature, or something else?', 'session_id': None}
+2025-06-16 01:54:13,440 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:54:13] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:54:26,292 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:54:26] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:54:26,294 - chatbot - INFO - Received request data: {'message': 'who is tiby kuruvila', 'session_id': '1750064015609'}
+2025-06-16 01:54:26,295 - chatbot - INFO - Processing message: 'who is tiby kuruvila' | Session: 1750064015609
+2025-06-16 01:54:26,296 - chatbot - INFO - Matched rule: name match for Tiby Kuruvila
+2025-06-16 01:54:26,296 - chatbot - INFO - Sending response: {'reply': 'Tiby Kuruvila is our Chief Advisor.', 'session_id': None}
+2025-06-16 01:54:26,297 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:54:26] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:54:32,037 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:54:32] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:54:32,040 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750064015609'}
+2025-06-16 01:54:32,040 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750064015609
+2025-06-16 01:54:32,041 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:54:34,151 - chatbot - INFO - AI fallback reply: Tiby Kuruvila is the Chief Advisor at Innovature. In this role, he likely provides strategic guidanc...
+2025-06-16 01:54:34,153 - chatbot - INFO - Sending response: {'reply': "Tiby Kuruvila is the Chief Advisor at Innovature. In this role, he likely provides strategic guidance and expertise to support the company's growth and initiatives in digital transformation.", 'session_id': None}
+2025-06-16 01:54:34,154 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:54:34] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:56:16,369 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-16 01:56:16,457 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 01:56:17,538 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 01:56:17,565 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 01:56:17,568 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 01:56:41,472 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-16 01:56:41,526 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 01:56:42,604 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 01:56:42,633 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 01:56:42,636 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 01:56:54,279 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 01:56:54,340 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-16 01:56:54,342 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 01:56:54,344 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 01:56:55,275 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 01:56:55,303 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 01:56:55,306 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 01:57:22,429 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:57:22] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:57:22,433 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750064233777'}
+2025-06-16 01:57:22,433 - chatbot - INFO - Processing message: 'hi' | Session: 1750064233777
+2025-06-16 01:57:22,434 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:57:24,656 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 01:57:24,656 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 01:57:24,657 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:57:24] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:57:29,956 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:57:29] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:57:29,962 - chatbot - INFO - Received request data: {'message': 'who is your ceo', 'session_id': '1750064233777'}
+2025-06-16 01:57:29,963 - chatbot - INFO - Processing message: 'who is your ceo' | Session: 1750064233777
+2025-06-16 01:57:29,964 - chatbot - INFO - Matched rule: CEO
+2025-06-16 01:57:29,964 - chatbot - INFO - Sending response: {'reply': 'Our CEOs are Gijo Sivan, Ravindranath A V.', 'session_id': None}
+2025-06-16 01:57:29,967 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:57:29] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:57:33,372 - chatbot - INFO - Received request data: {'message': 'global ceo', 'session_id': '1750064233777'}
+2025-06-16 01:57:33,372 - chatbot - INFO - Processing message: 'global ceo' | Session: 1750064233777
+2025-06-16 01:57:33,373 - chatbot - INFO - Matched rule: CEO
+2025-06-16 01:57:33,373 - chatbot - INFO - Sending response: {'reply': 'The CEO of Innovature Global is Gijo Sivan.', 'session_id': None}
+2025-06-16 01:57:33,373 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:57:33] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:57:37,316 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:57:37] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:57:37,319 - chatbot - INFO - Received request data: {'message': 'what does he do', 'session_id': '1750064233777'}
+2025-06-16 01:57:37,320 - chatbot - INFO - Processing message: 'what does he do' | Session: 1750064233777
+2025-06-16 01:57:37,320 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 01:57:40,168 - chatbot - INFO - AI fallback reply: Gijo Sivan is the CEO of Innovature on a global level. He is responsible for overseeing the company'...
+2025-06-16 01:57:40,170 - chatbot - INFO - Sending response: {'reply': "Gijo Sivan is the CEO of Innovature on a global level. He is responsible for overseeing the company's overall strategy and operations, driving growth, and ensuring the delivery of high-quality digital solutions to clients.", 'session_id': None}
+2025-06-16 01:57:40,172 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:57:40] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:58:04,596 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:58:04] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:58:04,599 - chatbot - INFO - Received request data: {'message': 'who all are in your team', 'session_id': '1750064233777'}
+2025-06-16 01:58:04,599 - chatbot - INFO - Processing message: 'who all are in your team' | Session: 1750064233777
+2025-06-16 01:58:04,600 - chatbot - INFO - Matched rule: leadership team
+2025-06-16 01:58:04,600 - chatbot - INFO - Sending response: {'reply': '**Our leadership team includes:**\n\n- **Gijo Sivan** – CEO, Global\n- **Ravindranath A V** – CEO, India and Americas\n- **Tiby Kuruvila** – Chief Advisor\n- **Yoshitaka Nakayama** – VP, Strategic Business Development\n- **Akira Furusawa** – Business Development\n- **Jesper Bågeman** – Partner, Technology\n- **Wahbe Rezek** – Advisor, AI & Deep Tech\n- **Unnikrishnan S** – Vice President\n- **Meghna George** – Head, People Operations', 'session_id': None}
+2025-06-16 01:58:04,600 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:58:04] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 01:58:41,644 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:58:41] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 01:58:41,647 - chatbot - INFO - Received request data: {'message': 'what employee benefits do you offer', 'session_id': '1750064233777'}
+2025-06-16 01:58:41,647 - chatbot - INFO - Processing message: 'what employee benefits do you offer' | Session: 1750064233777
+2025-06-16 01:58:41,648 - chatbot - INFO - Matched rule: employee wellbeing
+2025-06-16 01:58:41,648 - chatbot - INFO - Sending response: {'reply': 'At Innovature, we believe that wellbeing is a top priority. We strive to create a positive work-life balance for our employees by providing support and resources to help them thrive both on and off the job.\nWe provide: Healthy Meals, Tea & Cafeteria, Food Vouchers, Transportation, Sport Memberships, Training & Certifications, Team Outings, Medical Checkups.', 'session_id': None}
+2025-06-16 01:58:41,649 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 01:58:41] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:01:51,612 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-16 02:01:51,667 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 02:01:52,767 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:01:52,795 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 02:01:52,798 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 02:02:05,216 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:02:05,254 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-16 02:02:05,254 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 02:02:05,256 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 02:02:06,208 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:02:06,233 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 02:02:06,237 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 02:02:34,141 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:02:34] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:02:34,144 - chatbot - INFO - Received request data: {'message': 'employee wellbeing', 'session_id': '1750064543992'}
+2025-06-16 02:02:34,144 - chatbot - INFO - Processing message: 'employee wellbeing' | Session: 1750064543992
+2025-06-16 02:02:34,145 - chatbot - INFO - Matched rule: employee wellbeing
+2025-06-16 02:02:34,145 - chatbot - INFO - Sending response: {'reply': 'At Innovature, we believe that wellbeing is a top priority. We strive to create a positive work-life balance for our employees by providing support and resources to help them thrive both on and off the job.\n\n**We provide:** Healthy Meals, Tea & Cafeteria, Food Vouchers, Transportation, Sport Memberships, Training & Certifications, Team Outings, Medical Checkups.', 'session_id': None}
+2025-06-16 02:02:34,146 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:02:34] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:03:56,363 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-16 02:03:56,424 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 02:03:57,378 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:03:57,402 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 02:03:57,405 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 02:04:01,625 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-16 02:04:01,679 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 02:04:02,763 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:04:02,800 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 02:04:02,804 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 02:04:10,948 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:04:10,982 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-16 02:04:10,982 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 02:04:10,984 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 02:04:11,936 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:04:11,967 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 02:04:11,970 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 02:04:41,637 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:04:41] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:04:41,641 - chatbot - INFO - Received request data: {'message': 'which countries are you located in', 'session_id': '1750064669513'}
+2025-06-16 02:04:41,641 - chatbot - INFO - Processing message: 'which countries are you located in' | Session: 1750064669513
+2025-06-16 02:04:41,641 - chatbot - INFO - Matched rule: address
+2025-06-16 02:04:41,642 - chatbot - INFO - Sending response: {'reply': 'Our address is: Trans Asia Cyber Park 18th Floor Infopark Phase 2, Kakkanad Kerala 682303', 'session_id': None}
+2025-06-16 02:04:41,642 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:04:41] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:04:50,163 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:04:50] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:04:50,167 - chatbot - INFO - Received request data: {'message': 'which country', 'session_id': '1750064669513'}
+2025-06-16 02:04:50,168 - chatbot - INFO - Processing message: 'which country' | Session: 1750064669513
+2025-06-16 02:04:50,171 - chatbot - INFO - Matched rule: offices
+2025-06-16 02:04:50,171 - chatbot - INFO - Sending response: {'reply': 'Our offices are located in: India, Singapore, Canada, Japan, USA.', 'session_id': None}
+2025-06-16 02:04:50,172 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:04:50] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:05:02,459 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:05:02] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:05:02,462 - chatbot - INFO - Received request data: {'message': 'countries', 'session_id': '1750064669513'}
+2025-06-16 02:05:02,463 - chatbot - INFO - Processing message: 'countries' | Session: 1750064669513
+2025-06-16 02:05:02,463 - chatbot - INFO - Matched rule: offices
+2025-06-16 02:05:02,463 - chatbot - INFO - Sending response: {'reply': 'Our offices are located in: India, Singapore, Canada, Japan, USA.', 'session_id': None}
+2025-06-16 02:05:02,464 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:05:02] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:05:11,643 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:05:11] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:05:11,647 - chatbot - INFO - Received request data: {'message': 'which countries are you in', 'session_id': '1750064669513'}
+2025-06-16 02:05:11,647 - chatbot - INFO - Processing message: 'which countries are you in' | Session: 1750064669513
+2025-06-16 02:05:11,648 - chatbot - INFO - Matched rule: offices
+2025-06-16 02:05:11,648 - chatbot - INFO - Sending response: {'reply': 'Our offices are located in: India, Singapore, Canada, Japan, USA.', 'session_id': None}
+2025-06-16 02:05:11,649 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:05:11] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:07:12,681 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-16 02:07:12,740 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 02:07:13,715 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:07:13,739 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 02:07:13,743 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 02:07:14,798 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Tara ranjith\\Desktop\\flask-app\\app\\services\\chatbot_service.py', reloading
+2025-06-16 02:07:14,851 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 02:07:15,983 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:07:16,006 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 02:07:16,009 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 02:07:34,461 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:07:34,500 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-16 02:07:34,500 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 02:07:34,503 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 02:07:35,440 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 02:07:35,467 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 02:07:35,470 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 02:08:02,628 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:08:02] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:08:02,632 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750064876957'}
+2025-06-16 02:08:02,633 - chatbot - INFO - Processing message: 'hi' | Session: 1750064876957
+2025-06-16 02:08:02,633 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 02:08:07,113 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 02:08:07,115 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 02:08:07,117 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:08:07] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:08:20,027 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:08:20] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:08:20,031 - chatbot - INFO - Received request data: {'message': 'which countries are you located in>', 'session_id': '1750064876957'}
+2025-06-16 02:08:20,032 - chatbot - INFO - Processing message: 'which countries are you located in>' | Session: 1750064876957
+2025-06-16 02:08:20,032 - chatbot - INFO - Matched rule: countries located in
+2025-06-16 02:08:20,034 - chatbot - INFO - Sending response: {'reply': 'Our offices are located in: India, Singapore, Canada, Japan, USA.', 'session_id': None}
+2025-06-16 02:08:20,035 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:08:20] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:08:27,659 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:08:27] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:08:27,663 - chatbot - INFO - Received request data: {'message': 'where in india', 'session_id': '1750064876957'}
+2025-06-16 02:08:27,663 - chatbot - INFO - Processing message: 'where in india' | Session: 1750064876957
+2025-06-16 02:08:27,666 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 02:08:29,978 - chatbot - INFO - AI fallback reply: Innovature's office in India is located at Trans Asia Cyber Park, 18th Floor, Infopark Phase 2, Kakk...
+2025-06-16 02:08:29,979 - chatbot - INFO - Sending response: {'reply': "Innovature's office in India is located at Trans Asia Cyber Park, 18th Floor, Infopark Phase 2, Kakkanad, Kerala 682303.", 'session_id': None}
+2025-06-16 02:08:29,980 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:08:29] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:09:14,291 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:09:14] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:09:14,299 - chatbot - INFO - Received request data: {'message': 'where are you located', 'session_id': '1750064876957'}
+2025-06-16 02:09:14,300 - chatbot - INFO - Processing message: 'where are you located' | Session: 1750064876957
+2025-06-16 02:09:14,300 - chatbot - INFO - Matched rule: address
+2025-06-16 02:09:14,300 - chatbot - INFO - Sending response: {'reply': 'Our address is: Trans Asia Cyber Park 18th Floor Infopark Phase 2, Kakkanad Kerala 682303', 'session_id': None}
+2025-06-16 02:09:14,302 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:09:14] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:33:15,713 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:33:15] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:33:15,718 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750065665951'}
+2025-06-16 02:33:15,719 - chatbot - INFO - Processing message: 'hi' | Session: 1750065665951
+2025-06-16 02:33:15,719 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 02:33:19,670 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 02:33:19,670 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 02:33:19,671 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:33:19] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:33:40,656 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:33:40] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:33:40,661 - chatbot - INFO - Received request data: {'message': 'what services do you offer', 'session_id': '1750065665951'}
+2025-06-16 02:33:40,662 - chatbot - INFO - Processing message: 'what services do you offer' | Session: 1750065665951
+2025-06-16 02:33:40,662 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 02:33:42,974 - chatbot - INFO - AI fallback reply: Innovature offers the following services:
+
+1. Cloud
+2. Data
+3. Artificial Intelligence
+4. Consulting...
+2025-06-16 02:33:42,977 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services:\n\n1. Cloud\n2. Data\n3. Artificial Intelligence\n4. Consulting Capability\n5. Digital Transformation\n\nIf you need more details about any specific service, feel free to ask!', 'session_id': None}
+2025-06-16 02:33:42,979 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:33:42] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:54:51,518 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:54:51] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:54:51,522 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750067688386'}
+2025-06-16 02:54:51,522 - chatbot - INFO - Processing message: 'hi' | Session: 1750067688386
+2025-06-16 02:54:51,522 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 02:54:54,034 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 02:54:54,035 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 02:54:54,037 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:54:54] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 02:54:59,574 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:54:59] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 02:54:59,581 - chatbot - INFO - Received request data: {'message': 'what serv8ces', 'session_id': '1750067688386'}
+2025-06-16 02:54:59,582 - chatbot - INFO - Processing message: 'what serv8ces' | Session: 1750067688386
+2025-06-16 02:54:59,583 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 02:55:01,982 - chatbot - INFO - AI fallback reply: Innovature offers the following services:
+
+1. Cloud
+2. Data
+3. Artificial Intelligence
+4. Consulting...
+2025-06-16 02:55:01,984 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services:\n\n1. Cloud\n2. Data\n3. Artificial Intelligence\n4. Consulting Capability\n5. Digital Transformation\n\nIf you need more details about any specific service, feel free to ask!', 'session_id': None}
+2025-06-16 02:55:01,985 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 02:55:01] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 03:11:55,773 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 03:11:55] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 03:11:55,777 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750068712554'}
+2025-06-16 03:11:55,778 - chatbot - INFO - Processing message: 'hi' | Session: 1750068712554
+2025-06-16 03:11:55,779 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 03:11:57,803 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 03:11:57,805 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 03:11:57,807 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 03:11:57] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 03:12:00,396 - chatbot - INFO - Received request data: {'message': 'services', 'session_id': '1750068712554'}
+2025-06-16 03:12:00,397 - chatbot - INFO - Processing message: 'services' | Session: 1750068712554
+2025-06-16 03:12:00,397 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 03:12:03,998 - chatbot - INFO - AI fallback reply: Innovature offers the following services:
+
+1. **Cloud** - Solutions to help businesses leverage clou...
+2025-06-16 03:12:03,999 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services:\n\n1. **Cloud** - Solutions to help businesses leverage cloud technology for scalability and efficiency.\n2. **Data** - Data management and analytics services to drive informed business decisions.\n3. **Artificial Intelligence** - AI-driven solutions for enhanced automation and insights.\n4. **Consulting Capability** - Expert consulting to guide digital transformation efforts.\n5. **Digital Transformation** - Comprehensive strategies to modernize and optimize business operations.\n\nIf you need more details about any specific service, feel free to ask!', 'session_id': None}
+2025-06-16 03:12:04,000 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 03:12:04] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 04:13:43,326 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 04:13:43,472 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-16 04:13:43,472 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 04:13:43,474 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 04:13:44,495 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 04:13:44,522 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 04:13:44,536 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 04:15:00,997 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:15:00] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 04:15:01,001 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750072494119'}
+2025-06-16 04:15:01,001 - chatbot - INFO - Processing message: 'hi' | Session: 1750072494119
+2025-06-16 04:15:01,002 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 04:15:03,146 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 04:15:03,147 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 04:15:03,148 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:15:03] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 04:15:07,644 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:15:07] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 04:15:07,646 - chatbot - INFO - Received request data: {'message': 'services', 'session_id': '1750072494119'}
+2025-06-16 04:15:07,648 - chatbot - INFO - Processing message: 'services' | Session: 1750072494119
+2025-06-16 04:15:07,648 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 04:15:11,240 - chatbot - INFO - AI fallback reply: Innovature offers the following services:
+
+1. **Cloud** - Solutions for cloud computing to enhance s...
+2025-06-16 04:15:11,241 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services:\n\n1. **Cloud** - Solutions for cloud computing to enhance scalability and efficiency.\n2. **Data** - Data management and analytics services for better decision-making.\n3. **Artificial Intelligence** - AI-driven solutions to improve business operations.\n4. **Consulting Capability** - Expert consulting services for digital transformation.\n5. **Digital Transformation** - Comprehensive approaches to modernizing business processes.\n\nIf you have any specific questions about these services, feel free to ask!', 'session_id': None}
+2025-06-16 04:15:11,243 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:15:11] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 04:24:03,017 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 04:24:03,053 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3001
+2025-06-16 04:24:03,054 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 04:24:03,056 - werkzeug - INFO -  * Restarting with stat
+2025-06-16 04:24:03,995 - chatbot - INFO - Starting Flask server on port 3001...
+2025-06-16 04:24:04,025 - werkzeug - WARNING -  * Debugger is active!
+2025-06-16 04:24:04,028 - werkzeug - INFO -  * Debugger PIN: 690-483-593
+2025-06-16 04:24:29,636 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:24:29] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 04:24:29,640 - chatbot - INFO - Received request data: {'message': 'hi', 'session_id': '1750073065654'}
+2025-06-16 04:24:29,640 - chatbot - INFO - Processing message: 'hi' | Session: 1750073065654
+2025-06-16 04:24:29,640 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 04:24:31,694 - chatbot - INFO - AI fallback reply: Hello! How can I assist you today?...
+2025-06-16 04:24:31,696 - chatbot - INFO - Sending response: {'reply': 'Hello! How can I assist you today?', 'session_id': None}
+2025-06-16 04:24:31,698 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:24:31] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 04:24:37,027 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:24:37] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 04:24:37,031 - chatbot - INFO - Received request data: {'message': 'services', 'session_id': '1750073065654'}
+2025-06-16 04:24:37,031 - chatbot - INFO - Processing message: 'services' | Session: 1750073065654
+2025-06-16 04:24:37,033 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 04:24:40,266 - chatbot - INFO - AI fallback reply: Innovature offers the following services:
+
+1. **Cloud** - Solutions to harness the power of cloud co...
+2025-06-16 04:24:40,268 - chatbot - INFO - Sending response: {'reply': 'Innovature offers the following services:\n\n1. **Cloud** - Solutions to harness the power of cloud computing.\n2. **Data** - Strategies to manage and leverage data effectively.\n3. **Artificial Intelligence** - AI solutions to enhance business processes.\n4. **Consulting Capability** - Expert advice to guide digital transformation.\n5. **Digital Transformation** - Comprehensive strategies to transform businesses digitally.\n\nIf you need more detailed information about any specific service, feel free to ask!', 'session_id': None}
+2025-06-16 04:24:40,270 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:24:40] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 04:59:08,797 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:59:08] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 04:59:08,801 - chatbot - INFO - Received request data: {'message': 'what jobs can i apply to', 'session_id': '1750074183599'}
+2025-06-16 04:59:08,802 - chatbot - INFO - Processing message: 'what jobs can i apply to' | Session: 1750074183599
+2025-06-16 04:59:08,802 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 04:59:12,087 - chatbot - INFO - AI fallback reply: To find available job opportunities at Innovature, please visit our careers page or contact us direc...
+2025-06-16 04:59:12,089 - chatbot - INFO - Sending response: {'reply': 'To find available job opportunities at Innovature, please visit our careers page or contact us directly at sales@innovature.ai. We offer positions across various domains related to Cloud, Data, AI, and Consulting within industries like Retail, Telecommunications, Healthcare, and more.', 'session_id': None}
+2025-06-16 04:59:12,091 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:59:12] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 04:59:45,009 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:59:45] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 04:59:45,013 - chatbot - INFO - Received request data: {'message': 'i am good in React. which jobs can i apply to', 'session_id': '1750074183599'}
+2025-06-16 04:59:45,014 - chatbot - INFO - Processing message: 'i am good in React. which jobs can i apply to' | Session: 1750074183599
+2025-06-16 04:59:45,015 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 04:59:47,519 - chatbot - INFO - AI fallback reply: If you are skilled in React, you may consider applying for positions such as Front-End Developer, We...
+2025-06-16 04:59:47,519 - chatbot - INFO - Sending response: {'reply': 'If you are skilled in React, you may consider applying for positions such as Front-End Developer, Web Developer, or Software Engineer within our teams that focus on Cloud, Data, and AI solutions. For specific job openings, please check our careers page or contact us at sales@innovature.ai.', 'session_id': None}
+2025-06-16 04:59:47,521 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 04:59:47] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 05:00:38,585 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 05:00:38] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 05:00:38,589 - chatbot - INFO - Received request data: {'message': 'i dont have much experience', 'session_id': '1750074183599'}
+2025-06-16 05:00:38,589 - chatbot - INFO - Processing message: 'i dont have much experience' | Session: 1750074183599
+2025-06-16 05:00:38,590 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 05:00:41,499 - chatbot - INFO - AI fallback reply: Even if you don't have much experience, you can still apply for entry-level positions or internships...
+2025-06-16 05:00:41,501 - chatbot - INFO - Sending response: {'reply': "Even if you don't have much experience, you can still apply for entry-level positions or internships at Innovature, especially if you have the relevant skills in React. We value potential and a willingness to learn. Check our careers page for opportunities that match your skill level, or you can reach out to us at sales@innovature.ai for guidance.", 'session_id': None}
+2025-06-16 05:00:41,503 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 05:00:41] "POST /api/chat HTTP/1.1" 200 -
+2025-06-16 05:03:33,905 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 05:03:33] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-06-16 05:03:33,908 - chatbot - INFO - Received request data: {'message': 'i am also good in flask', 'session_id': '1750074183599'}
+2025-06-16 05:03:33,908 - chatbot - INFO - Processing message: 'i am also good in flask' | Session: 1750074183599
+2025-06-16 05:03:33,909 - chatbot - INFO - No rule matched, using AI fallback
+2025-06-16 05:03:38,155 - chatbot - INFO - AI fallback reply: That's great! Your skills in Flask, combined with your knowledge of React, can make you a strong can...
+2025-06-16 05:03:38,156 - chatbot - INFO - Sending response: {'reply': "That's great! Your skills in Flask, combined with your knowledge of React, can make you a strong candidate for roles such as Full Stack Developer or Software Developer in our teams focused on building web applications. We encourage you to explore entry-level positions or internships that suit your skill set. For specific job openings, you can check our careers page or contact us at sales@innovature.ai.", 'session_id': None}
+2025-06-16 05:03:38,157 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 05:03:38] "POST /api/chat HTTP/1.1" 200 -
