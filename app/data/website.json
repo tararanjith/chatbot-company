@@ -23,7 +23,9 @@
     "address": "Trans Asia Cyber Park 18th Floor Infopark Phase 2, Kakkanad Kerala 682303"
   },
   "socials": {
-    "linkedin": "https://www.linkedin.com/company/innovature"
+    "linkedin": "https://www.linkedin.com/company/innovature",
+    "instagram": "https://www.instagram.com/innovaturelabs",
+    "facebook": "https://www.facebook.com/innovature"
   },
   "vision": "Create a better future through innovative digital transformation.",
   "mission": "Consistently deliver innovative and high-quality digital solutions that elicit customer delight.",
@@ -53,20 +55,166 @@
     ]
   },
   "leadership_team": [
-    {"name": "Gijo Sivan", "position": "CEO, Global"},
-    {"name": "Ravindranath A V", "position": "CEO, India and Americas"},
-    {"name": "Tiby Kuruvila", "position": "Chief Advisor"},
-    {"name": "Yoshitaka Nakayama", "position": "VP, Strategic Business Development"},
-    {"name": "Akira Furusawa", "position": "Business Development"},
-    {"name": "Jesper Bågeman", "position": "Partner, Technology"},
-    {"name": "Wahbe Rezek", "position": "Advisor, AI & Deep Tech"},
-    {"name": "Unnikrishnan S", "position": "Vice President"},
-    {"name": "Meghna George", "position": "Head, People Operations"}
+    "Innovature has 2 CEOs.",
+    { "name": "Gijo Sivan", "position": "CEO", "region": "Global" },
+    { "name": "Ravindranath A V", "position": "CEO", "region": "India and Americas" },
+    { "name": "Tiby Kuruvila", "position": "Chief Advisor" },
+    { "name": "Yoshitaka Nakayama", "position": "VP, Strategic Business Development" },
+    { "name": "Akira Furusawa", "position": "Business Development" },
+    { "name": "Jesper Bågeman", "position": "Partner, Technology" },
+    { "name": "Wahbe Rezek", "position": "Advisor, AI & Deep Tech" },
+    { "name": "Unnikrishnan S", "position": "Vice President" },
+    { "name": "Meghna George", "position": "Head, People Operations" }
   ],
-  "detailed_info": {
+  "detailed_info_services": {
     "digital_transformation": "Reimagine. Reinvent. Transform.\nWhat we do is simple — from strategy to execution, we’re with you every step of the way. Whether you’re modernizing systems, scaling by insourcing AI, or building future-proof foundations, Innovature enables digital transformation that drives real outcomes.\n\nWhat sets us apart:\n- We follow a product-first mindset and approach.\n- We align business goals with emerging technology.\n\nOur 4-Stage DX Framework:\n01 Vision and Strategy: We start by reimagining your business model, including capability mapping and identifying the most promising opportunities that drive long-term value and returns.\n02 Rapid Prototyping: Leverage low-code/no-code development, run quick validation sprints, and test ideas through agile prototyping to support scalable innovation.\n03 Core Modernization: Modernize your core to unlock future-ready capabilities. We help transition from legacy systems to agile, scalable, and intelligent platforms that support business growth.\n04 AI-Led Optimization: Boost operational efficiency by integrating AI/ML into workflows, automating repetitive tasks, and enabling data-driven, smart decision-making.\n\nCore Areas:\n- Cloud and DevOps: Secure, scalable, cloud-native architectures, legacy migration, hybrid integration, DevOps automation, infrastructure security.\n- AI and Automation: Intelligent applications, GenAI tools, intelligent workflows, transformative automation.\n- Data Engineering & Analytics: Assess, organize, and extract data value for smarter decisions.\n- Quality Assurance: Shift-left QA, functionality, accessibility, performance, security.\n- Product and Experience Design: Mobile-first, inclusive UI to improve engagement and retention.\n- DEV and Tech Pods: Dedicated tech pods for custom web, mobile, and full-stack solutions.",
     "cloud_solutions": "Innovature offers a range of cloud services, including cloud migration, security, cloud native services, and compliance, to name a few. Our cloud solutions are designed to minimize capital expenditure by offering flexible, pay-as-you-go models and reducing the need for on-premises hardware and maintenance costs.",
     "core_ai_services": "Core AI Services We Offer:\n- Conversational AI that feels human\n- Predictive Analytics & Behavioural Intelligence\n- Computer Vision & Object Detection\n- Generative Content & NLP Models\n- Immersive AI Simulations (AR/VR)",
     "consulting": "How our consultants accelerate growth:\nWe validate your vision and build the ecosystem to launch it. From startup ideation to offshore team scaling, Innovature empowers you with the strategy, structure, and support to get your business off the ground — and growing with confidence.\n\nHow do we help:\nWe provide full-spectrum consulting—from idea validation and MVP development to scaling offshore teams—tailored to every stage of your startup’s growth.\n\nProven expertise in setting up and scaling GCCs with flexible BOT and managed service models for control, speed, and efficiency."
+  },
+  "job_opportunities": ["Apply through Careers section of website",
+    { "title": "SRE Lead", "department": "Software" },
+    { "title": "DevOps Engineer", "department": "Software" },
+    { "title": "Data Analyst", "department": "Software" },
+    { "title": "Full Stack Developer (PHP & Vue.js/React.js)", "department": "Software" },
+    { "title": "Junior Business Analyst", "department": "Software" },
+    { "title": "DevOps Engineer – GCP", "department": "Software" },
+    { "title": "DevOps Lead", "department": "Software" },
+    { "title": "Software Engineer(PHP)", "department": "Software" },
+    { "title": "AI Engineer(AI/ML & Generative AI)", "department": "Software" },
+    { "title": "Senior Software Engineer/Team Lead (Full stack)", "department": "Software" },
+    { "title": "Software Engineer Full-stack (Python/React)", "department": "Software" },
+    { "title": "Technical Lead", "department": "Software" },
+    { "title": "Senior Software Engineer/Team Lead(Python)", "department": "Software" },
+    { "title": "Project Manager", "department": "Software" },
+    { "title": "QA Engineer", "department": "Software" },
+    { "title": "Technical Architect", "department": "Software" },
+    { "title": "Business Operations Manager", "department": "Sales" },
+    { "title": "Business Development Executive", "department": "Infra" },
+    { "title": "Senior Software Engineer", "department": "Software" },
+    { "title": "Senior Software Engineer (Front-end)", "department": "Software" }
+  ],
+  "detailed_info_team": {
+    "Gijo Sivan": "Gijo is based in Japan and possesses two decades of experience in modern web technology, big data analysis, cloud computing, and data mining. He plays a pivotal role in shaping the company’s global reputation, particularly within the Japanese IT industry, and brings extensive experience in sales, delivery management, partner management, operations, and technology consulting.",
+    "Ravindranath A V": "Ravindranath is a seasoned executive renowned for his global proficiency in IT strategy, infrastructure, and software services delivery. With a focus on innovation, he translates clients’ business concepts into actionable solutions across diverse industries such as banking, retail, education, and telecommunications.",
+    "Tiby Kuruvila": "Tiby is a respected technology expert recognized for his contributions in project management and technology development. His dedication to technological advancement and client relationship management has established him as a valuable asset in driving business growth and maintaining customer satisfaction across various sectors.",
+    "Yoshitaka Nakayama": "Yoshi Nakayama is a technology executive known for his impact on business development and IT strategy. As VP of Business Development at Innovature, he leads the company’s mid- to long-term growth. With experience in product management, marketing, and business development in both Japan and the U.S., Yoshi excels in advancing technology and managing strategic customer relationships, driving business growth and ensuring customer satisfaction across various industries.",
+    "Akira Furusawa": "Akira Furusawa is a business development executive with expertise in IT solutions across various industries. He leads marketing and sales for Japanese companies, focusing on expanding Innovature’s system development services in Japan and globally. Leveraging Innovature’s advanced technology and skills, he drives long-term growth while building lasting relationships with clients and partners, contributing to customer satisfaction and business success.",
+    "Jesper Bågeman": "Jesper is an IT enthusiast committed to driving positive change through technology. He leads with three core principles: fostering genuine partnerships with clients, integrating sustainability into operations, and prioritizing the empowerment and well-being of team members. Jesper’s dedication to these values ensures that he delivers impactful results.",
+    "Wahbe Rezek": "Wahbe, based in Amsterdam, has a solid background in project and IT change management, notably at the City of Amsterdam and ING. In 2019, he transitioned to become a Program Manager at ING’s Financial Markets division, specializing in AI. Since late 2022, Wahbe has founded Future Focus, offering AI advisory and implementation services, and assisting clients in maximizing the potential of artificial intelligence. Additionally, he serves as an Advisor-AI & Deep Tech at Innovature, where he provides strategic insights and guidance on cutting-edge AI technologies.",
+    "Unnikrishnan S": "Unnikrishnan brings a wealth of experience in delivering impactful software projects and implementing strategic technological initiatives. His comprehensive knowledge in project management, operations, and client engagement consistently yields significant results, making him a trusted leader in the field of IT.",
+    "Meghna George": "Meghna is dedicated to shaping HR practices and fostering a culture of growth and empowerment, steering Innovature toward a brighter future. With an impressive background in Human Resources, Meghna has successfully led HR shared services and managed the HRBP portfolio for large delivery units. Her expertise encompasses strategic planning, change management, and employee development, making her a pivotal force in driving organizational excellence."
+  },
+  
+  "job_description": [
+    {
+      "title": "SRE Lead",
+      "description": "The SRE Lead will manage the Site Reliability Engineering team, overseeing scheduling, task allocation, and team SLAs. They will ensure effective communication with customers and peers, drive industry-aligned monitoring practices, and implement metrics-driven processes. The role demands expertise in monitoring tools (like Zabbix, Nagios), ticketing systems (e.g., Zoho Desk, JIRA), Linux system administration, scripting, and performance tuning. Basic knowledge of cloud platforms (AWS, Azure, GCP) and networking fundamentals is expected. Strong problem-solving, documentation, and communication skills are essential. Experience required: 5–7 years in L2 monitoring."
+    },
+    {
+      "title": "DevOps Engineer",
+      "description": "The DevOps Engineer will ensure infrastructure scalability, reliability, and security using IaC principles. Responsibilities include designing CI/CD pipelines, automating deployments, and managing cloud environments. The role involves collaboration with developers and IT teams, proactive monitoring, and adherence to security standards. Required skills include cloud platform experience (AWS, Azure, GCP), scripting (Bash, Python, Ruby), configuration tools (Ansible, Chef, Puppet), containerization (Docker, Kubernetes), and monitoring tools (Zabbix, Nagios). Strong problem-solving and communication skills are essential. Experience required: 2–3 years."
+    },
+    {
+      "title": "Data Analyst",
+      "description": "The Data Analyst will analyze large datasets related to sales, customer behavior, and product usage to extract meaningful insights. They will develop reports and dashboards using BI tools like Tableau or Power BI, and collaborate with business stakeholders to align data outputs with strategic goals. Required skills include proficiency in Python, SQL, and Java, as well as working knowledge of BI tools, ETL processes, and data warehousing concepts. The analyst should be able to translate data insights into marketing and sales strategies. Experience required: 2–4 years."
+    },
+    {
+      "title": "Full Stack Developer (PHP & Vue.js/React.js)",
+      "description": "The Full Stack Developer will build and maintain full-stack web applications using PHP frameworks (Laravel, CakePHP, CodeIgniter) along with Vue.js or React.js. Responsibilities include developing RESTful APIs, working with relational databases (MySQL, PostgreSQL, MongoDB), and implementing responsive UIs using modern frontend tools like Tailwind CSS. The developer must collaborate with cross-functional teams and follow best practices in version control, CI/CD, and code quality. Experience with Docker, cloud platforms (AWS, Azure, GCP), and performance optimization is desirable. Experience required: 3–5 years."
+    },
+    {
+      "title": "Junior Business Analyst",
+      "description": "The Junior Business Analyst will collaborate with stakeholders to gather, document, and analyze business requirements. They will conduct market research, competitive analysis, and feasibility studies for new initiatives. Responsibilities include creating workflows, BRDs, FRDs, and assisting in UAT to ensure solutions align with business goals. The role requires familiarity with Agile/Scrum/Waterfall methodologies, strong communication skills, and tools such as JIRA, Confluence, and SQL. An understanding of UI/UX principles and BI platforms is advantageous. Experience required: 1–2 years."
+    },
+    {
+  "title": "DevOps Engineer – GCP",
+  "description": "The DevOps Engineer – GCP will be responsible for designing, implementing, and managing infrastructure on Google Cloud Platform (GCP) using tools like Terraform and Deployment Manager. Key duties include building CI/CD pipelines with Jenkins, GitLab CI, or Cloud Build, managing Kubernetes (GKE) clusters, and automating deployments using IaC and configuration tools such as Ansible and Chef. The role also includes performance monitoring with tools like Prometheus and Stackdriver, implementing cloud security best practices, and managing networking, IAM, and disaster recovery strategies. Strong scripting, cloud infrastructure, and troubleshooting skills are essential. Experience required: 2–4 years."
+},
+{
+  "title": "DevOps Lead",
+  "description": "Lead the DevOps team, manage CI/CD pipelines, automate deployments, and oversee infrastructure. Proficient in cloud platforms, scripting, configuration management, and containerization tools."
+},
+{
+  "title": "Software Engineer (PHP)",
+  "description": "Develop and maintain PHP web applications using Laravel, CodeIgniter, or CakePHP. Integrate APIs, manage databases, optimize performance, and collaborate with cross-functional teams."
+},
+{
+  "title": "AI Engineer (AI/ML & Generative AI)",
+  "description": "Design and deploy AI/ML and Generative AI models using tools like Transformers and GANs. Work on real-world applications, data pipelines, and cross-functional collaboration. Experience with Python, TensorFlow, PyTorch, and cloud platforms."
+},
+{
+  "title": "Senior Software Engineer/Team Lead (Full stack)",
+  "description": "Lead full-stack development using React.js and Java/Python. Mentor team members, design scalable frontends and backends, manage databases, and ensure performance, code quality, and best practices across the stack."
+},
+{
+  "title": "Software Engineer Full-stack (Python/React)",
+  "description": "Develop full-stack applications using React.js and Python. Build responsive UIs, backend APIs, and manage SQL/NoSQL databases. Collaborate with teams to translate requirements and resolve issues across the stack."
+},
+{
+  "title": "Technical Lead",
+  "description": "Lead technical teams in delivering scalable solutions. Collaborate with clients, define system specs, guide developers, and uphold best practices. Expertise in backend stacks, databases, and API architectures."
+},
+{
+  "title": "Senior Software Engineer/Team Lead (Python)",
+  "description": "Lead Python development efforts, mentor team members, and build scalable backend services. Collaborate with stakeholders, optimize databases, and ensure efficient API design using SQL/NoSQL solutions."
+},
+{
+  "title": "Project Manager",
+  "description": "Oversee software projects end-to-end, manage cross-functional teams, define scope and timelines, ensure quality standards, and communicate with stakeholders. Strong technical and leadership skills required."
+},
+{
+  "title": "QA Engineer",
+  "description": "Perform manual and automated testing for web and mobile apps, including performance and security testing. Collaborate with teams to ensure high-quality delivery using tools like JMeter, Selenium, and OWASP."
+},
+{
+  "title": "Technical Architect",
+  "description": "Design IT system structures and oversee implementation, translating complex business needs into scalable architecture. Requires hands-on experience in Java, Spring Boot, AWS, REST APIs, and both SQL/NoSQL databases."
+},
+{
+  "title": "Business Operations Manager",
+  "description": "Manage user engagement, track project metrics, and coordinate support through internal processes. Requires strong analytical and communication skills, Excel proficiency, and customer success experience."
+},
+{
+  "title": "Business Development Executive",
+  "description": "Full-time role based in Infopark, Kochi requiring 4-5 years experience. Responsibilities include achieving qualified prospects, leading outreach, identifying customer needs, scheduling discovery meetings, managing outbound campaigns, and attending virtual industry events. Skills needed: 2-5 years in SDR/BDR roles, B2B familiarity, CRM and LinkedIn Sales Navigator experience, strong communication, proven sales opportunity generation, and a self-driven attitude."
+},
+{
+  "title": "Senior Software Engineer",
+  "description": "Full-time position in Infopark, Kochi requiring 5-7 years of development experience. Responsibilities include mentoring team members, collaborating with back-end engineers for seamless user experience, writing clean functional web application code, and staying updated with tech trends. Required skills: proficiency in at least two of CakePHP, Laravel, CodeIgniter, PHP, MySQL, JavaScript, HTML, CSS; strong hands-on experience with MySQL, SQL Server, or PostgreSQL; knowledge of frameworks and REST APIs. MongoDB is preferred."
+},
+{
+  "title": "Senior Software Engineer (Front-end)",
+  "description": "Full-time role at Infopark, Kochi requiring 5-7 years experience in frontend development. Responsibilities include mentoring engineers, collaborating with the front-end team to create reliable user experiences, writing clean code, driving improvements in performance and maintainability, and staying updated with tech trends. Skills needed: strong frontend background, proficiency in JavaScript, TypeScript, HTML, CSS, and expertise in at least two frameworks among Angular, React, or Vue."
+}
+
+
+  ],
+   "india-contact": {
+    "call": "+91-484-4038120",
+    "email": "in-sales@innovature.ai",
+    "address": "Trans Asia Cyber Park 18th Floor, Infopark Phase 2, Kakkanad, Kerala 682303, India"
+  },
+  
+  "japan-contact": {
+    "call": "+81-03-6265-6474",
+    "email": "jp-sales@innovature.ai",
+    "address": "Y’S Coral Build 5F, Kanda Jimbocho 2-20-13, Chiyoda Ku, Tokyo 101-0051, Japan"
+  },
+ "singapore_contact": {
+    "call": "+81-03-6265-6474",
+    "email": "sg-sales@innovature.ai",
+    "address": "16 Raffles Quay, #33-03 Hong Leong Building, 048581, Singapore"
+  },
+"usa_contact": {
+    "call": "+1-973-452-8598",
+    "email": "us-sales@innovature.ai",
+    "address": "1098, Ann Arbor Rd, Suite 160, Plymouth, Michigan 48170, USA"
+  },
+
+"canada_contact": {
+    "call": "+1-647-832-8598",
+    "email": "ca-sales@innovature.ai",
+    "address": "44, Pace Crescent, Bradford West Gwillimbury, Ontario L3Z 3H8, Canada"
   }
 }
