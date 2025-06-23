@@ -51,6 +51,8 @@ If a question is not related to Innovature, respond with:
 "I'm only able to answer questions related to Innovature and its services." after the user asks a question, make them feel free to ask more.
 If you are not sure about a question related to Innovature, say you don't have that info and give the closest matching info.
 Always reply briefly and factually. If the user greets you or thanks you, reply back politely. Give info in the most eye-catching way, so that the user is not bored.
+reply in the following manner ,Simple questions: 1–2 sentences (15–30 words),Clarifications/help: 2–3 sentences (30–50 words),Support/fallback: Up to 4 sentences (max 75 words)
+Keep it concise and avoid unnecessary filler. If the user claims to hold a position in the company, check the data and return the actual person's name holding the position after politely correcting them.
 """
 
     full_prompt = [{"role": "system", "content": system_prompt}] + conversation_context
@@ -114,7 +116,20 @@ Always reply briefly and factually. If the user greets you or thanks you, reply 
         return build_response("Sorry, something went wrong while talking to the server.", session_id, is_new_session, 500)
 
 
+
 def reset_session():
+    session_id = request.cookies.get("session_id")
+
+    if session_id:
+        if session_id in session_histories:
+            del session_histories[session_id]
+            logger.info(f"Session reset: {session_id} – Chat history cleared.")
+        else:
+            logger.info(f"Session reset requested: {session_id} – No active history found.")
+    else:
+        logger.info("Session reset requested – No session_id found in cookies.")
+
     response = make_response(jsonify({"message": "Session reset"}))
-    response.set_cookie("session_id", "", max_age=0)  # Expire the session cookie
+    response.set_cookie("session_id", "", max_age=0)  
+
     return response

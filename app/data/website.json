@@ -55,11 +55,11 @@
     ]
   },
   "leadership_team": [
-    "Innovature has 2 CEOs.",
+    "Innovature has 2 CEOs.","There are two positions for vp, but the vp is Unnikrishnan.",
     { "name": "Gijo Sivan", "position": "CEO", "region": "Global" },
     { "name": "Ravindranath A V", "position": "CEO", "region": "India and Americas" },
     { "name": "Tiby Kuruvila", "position": "Chief Advisor" },
-    { "name": "Yoshitaka Nakayama", "position": "VP, Strategic Business Development" },
+    { "name": "Yoshitaka Nakayama", "position": "Vice President, Strategic Business Development" },
     { "name": "Akira Furusawa", "position": "Business Development" },
     { "name": "Jesper Bågeman", "position": "Partner, Technology" },
     { "name": "Wahbe Rezek", "position": "Advisor, AI & Deep Tech" },

@@ -21,14 +21,13 @@ function ChatWindow({
         <img src="/logo.png" alt="Logo" className="logo" />
         <span>Nova Chatbot</span>
         <button
-  className="reset-icon"
-  onClick={resetChat}
-  title="Reset Chat"
-  aria-label="Reset chat"
->
-  <RotateCcw size={20} strokeWidth={2} />
-</button>
-
+          className="reset-icon"
+          onClick={resetChat}
+          title="Reset Chat"
+          aria-label="Reset chat"
+        >
+          <RotateCcw size={20} strokeWidth={2} />
+        </button>
       </div>
 
       <div className="chat-box" ref={chatBoxRef}>
@@ -55,12 +54,12 @@ function ChatWindow({
         </button>
       )}
 
-      
       <ChatInput
         input={input}
         setInput={setInput}
         sendMessage={sendMessage}
         handleKeyPress={handleKeyPress}
+        isTyping={isTyping}
       />
     </div>
   );

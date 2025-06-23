@@ -29,7 +29,8 @@ function App() {
 
 
   const sendMessage = async () => {
-    if (!input.trim()) return;
+    if (!input.trim() || isTyping) return;
+
 
     const userMessage = { sender: 'user', content: input };
     setMessages((prev) => [...prev, userMessage]);
@@ -50,7 +51,7 @@ function App() {
     } catch (error) {
       const errorMessage = {
         sender: 'bot',
-        content: '⚠️ Error: Could not reach the server.',
+        content: 'Error: Could not reach the server.',
       };
       setMessages((prev) => [...prev, errorMessage]);
     } finally {
