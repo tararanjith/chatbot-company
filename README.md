@@ -6,7 +6,7 @@ A modern, session-aware chatbot built with a **React frontend** and **Flask back
 
 ##  Tech Stack
 
-- **Frontend**: React, Flexbox, Vanilla CSS
+- **Frontend**: React, Flexbox
 - **Backend**: Python, Flask
 - **AI Provider**: OpenRouter API (`gpt-4o-mini`)
 - **Other Tools**: dotenv, logging, session-based memory
@@ -16,11 +16,10 @@ A modern, session-aware chatbot built with a **React frontend** and **Flask back
 ##  Features
 
 -  Real-time chat interface with modern UI  
--  Session memory for contextual follow-up questions  
--  Fallback to predefined answers if AI fails  
--  Graceful error handling for offline/API issues  
--  Animated typing indicator and scroll-to-bottom button  
+-  Session memory for contextual follow-up questions   
+-  Graceful error handling for offline/API issues   
 -  Fully responsive layout using **Flexbox + Media Queries** 
+- **Reset Button** to clear the chat window and start fresh
 
 ---
 
